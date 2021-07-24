@@ -10,6 +10,7 @@ require('dotenv').config();
 const command = require('./Commands/command.js');
 const hey = require('./Commands/hey.js');
 const version = require('./Commands/version.js');
+const help = require('./Commands/help.js');
 
 // Up commands
 
@@ -28,6 +29,10 @@ client.on('ready', () => {
     command(client,'version', message => {
         version(message);
     });
+
+    command(client, 'help', message => {
+    	message.channel.send(help);
+    })
 });
 
 // Authentications
