@@ -1,12 +1,17 @@
-//Importing discord libraries
+//Importing important libraries
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
 require('dotenv').config();
 
+//Command inclusion
+
 const command = require('./Commands/command.js');
 const hey = require('./Commands/hey.js');
+const version = require('./Commands/version.js');
 
+// Up commands
 
 client.on('ready', () => {
 
@@ -19,7 +24,12 @@ client.on('ready', () => {
     command(client,'hey', message => {
         hey(message);
     });
-    
+
+    command(client,'version', message => {
+        version(message);
+    });
 });
+
+// Authentications
 
 client.login(process.env.BOT_TOKEN);
