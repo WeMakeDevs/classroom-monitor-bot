@@ -1,0 +1,43 @@
+{
+  "name": "classroom-monitor-bot",
+  "version": "1.0.0",
+  "description": "Friendly class monitor for community classroon discord server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiwalyakoparkar/classroom-monitor-bot.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "disordjs",
+    "free-edu",
+    "cs"
+  ],
+  "author": "Kaiwalya Koparkar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaiwalyakoparkar/classroom-monitor-bot/issues"
+  },
+  "homepage": "https://github.com/kaiwalyakoparkar/classroom-monitor-bot#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.1.1",
+    "prettier": "^2.3.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}
