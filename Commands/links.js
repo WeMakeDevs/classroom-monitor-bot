@@ -21,6 +21,10 @@ const linkEmbed = new Discord.MessageEmbed()
 			value: 'https://twitter.com/commclassroom/',
 		},
 		{
+			name: 'Instagram',
+			value: 'https://www.instagram.com/commclassroom/',
+		},
+		{
 			name: 'Youtube',
 			value: 'https://www.youtube.com/c/KunalKushwaha/',
 		},
