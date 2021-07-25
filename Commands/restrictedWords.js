@@ -10,7 +10,7 @@ const warnEmbed = new Discord.MessageEmbed()
     )
     .addFields(
         {
-            name: 'Hey were found violating server rules ⚠️. Kindly follow #rules else this might lead to strict actions against you. 🚨',
+            name: 'Hey you were found violating server rules ⚠️. Kindly follow #rules else this might lead to strict actions against you. 🚨',
             value: 'If it was mistake by me, contact community moderator :)',
         }
     )
