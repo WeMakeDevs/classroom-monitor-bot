@@ -59,3 +59,35 @@ Whenever you want to contribute to any project it is a good practice to make a s
 1. `git branch -b <your-branch-name>` will make a separate branch and will take you to it
 2. Now you are ready to make your desired changes
 
+### Setting up application and creating bot
+
+1. First visit [here](https://discord.com/developers/applications/)
+2. Login with your discord credentials and will see the screen(image below and for you it will probably be a blank one)
+    <img src="./doc/HomePage.jpg" alt="home page">
+3. Now click the `New Application` button(refer to image above)
+4. Name your bot and press `create` 
+5. Now you will appear at the application dashboard where you can customize your bot(refer to image below)
+    <img src="./doc/Dashboard.jpg" alt="dashboard">
+6. Now to create your bot instance go to `Bot` tab and press`Add Bot` followed by `Yes,do it` in the following popup(refer to image below)
+    <img src="./doc/BotInstance.jpg" alt="bot instance">
+7. Now you will appear to this screen(image below)
+    <img src="./doc/After_adding_bot.jpg" alt="bot dashboard">
+8. Go to `OAuth2` and copy the client id(refer to image below)
+    <img src="./doc/ap_id.jpg" alt="bot dashboard">
+9. Now to invite the bot to your server, paste this link in your browser `https://discord.com/api/oauth2/authorize?client_id=<app-id>&permissions=8&scope=bot` and just replace `<app-id>` with your copied client id
+10. Now you will be redirected to this screen(image below) where you have to select a server and click on `continue` and `authorize` after that
+    <img src="./doc/add_server.jpg" alt="server page">
+
+##### Now your bot will be added to your server but it is still offline. So let's start...
+
+### Coding our Bot
+
+1. Open the folder of your cloned repository with any text editor of your choice
+2. Now go to developers portal where you created the bot and copy the bot token from `Bot` tab(refer to image below)
+    <img src="./doc/BotToken.jpg" alt="bot token">
+3. Now create a `.env` file in your root folder and copy everything from `.env-sample` file and replace the `BOT-TOKEN` value with the copied token
+4. In the terminal run `npm install`, this will install all the packages
+5. Then to start our server run `npm start`, this will start our server and the bot will be online
+
+
+# Yayy you have successfully setup your bot!!! Now start contributing
