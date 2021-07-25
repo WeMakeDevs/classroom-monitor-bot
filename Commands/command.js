@@ -17,5 +17,6 @@ module.exports = (client, aliases, callback) => {
                 callback(message);
             }
         });
+
     });
 };

@@ -12,6 +12,7 @@ const hey = require('./Commands/hey.js');
 const version = require('./Commands/version.js');
 const help = require('./Commands/help.js');
 const links = require('./Commands/links.js');
+const restrict = require('./Commands/restrictedWords.js');
 
 // Up commands
 
@@ -23,21 +24,27 @@ client.on('ready', () => {
 		}`
 	);
 
+    //Hey Command
     command(client,'hey', message => {
         hey(message);
     });
 
+    //Version Command
     command(client,'version', message => {
         version(message);
     });
 
+    //Help Command
     command(client, 'help', message => {
     	message.channel.send(help);
-    })
+    });
 
+    //Links Command
     command(client, 'links', message => {
     	message.channel.send(links);
     });
+
+    restrict(client, message => {});
 });
 
 // Authentications
