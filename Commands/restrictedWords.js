@@ -35,11 +35,7 @@ const words = [
     `byju's`,
     'white hat jr',
     'white hat junior',
-    'whitehatjunior',
-    'geeksforgeeks',
-    'geeks for geeks',
-    'gfg'
-
+    'whitehatjunior'
 ]
 
 module.exports = (client, callback) => {
