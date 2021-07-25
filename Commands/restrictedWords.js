@@ -1,3 +1,25 @@
+const Discord = require('discord.js');
+const warnEmbed = new Discord.MessageEmbed()
+    .setColor('#f44336')
+    .setTitle('Community monitor warning you!!')
+    .setURL('https://github.com/kaiwalyakoparkar/classroom-monitor-bot')
+    .setAuthor(
+        'Classroon monitor',
+        'https://i.imgur.com/yMCOBLH.png',
+        'https://discord.js.org'
+    )
+    .addFields(
+        {
+            name: 'Hey were found violating server rules ⚠️. Kindly follow #rules else this might lead to strict actions against you. 🚨',
+            value: 'If it was mistake by me, contact community moderator :)',
+        }
+    )
+    .setTimestamp()
+    .setFooter(
+        'Want help? Classroom monitor is just `cc!help` far',
+        'https://i.imgur.com/yMCOBLH.png'
+    );
+
 const words = [
     'cfc',
     'code for cause',
@@ -11,7 +33,7 @@ module.exports = (client, callback) => {
         for (var i=0; i < words.length; i++) {
             if(message.content.toLowerCase().includes(words[i])) {
                 message.reply('Please do not talk about other edTech startups here 🚫. If you think I did a mistake dont worry I am still under development, tag Community Manager and report this 🏷️. ');
-                message.author.send(`Hey you just violated server rules. Kindly follow #rules else this might lead to strict actions against you.`);
+                message.author.send(warnEmbed);
             }
         }
 
