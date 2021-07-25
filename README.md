@@ -34,4 +34,8 @@ We believe that every student, irrespective of their college or branch, can make
 
 You can find all the guidelines [here](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/blob/dev/CONTRIBUTING.md).
 
+## Code of Conduct : 
+
+You can find the code of conduct [here](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/blob/dev/CODE_OF_CONDUCT.md).
+
 
