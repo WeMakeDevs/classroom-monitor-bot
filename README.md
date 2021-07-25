@@ -25,3 +25,13 @@
     <img width="30px" src="https://www.vectorlogo.zone/logos/telegram/telegram-icon.svg" />
   </a><br>
 </p>  
+
+## About :
+
+We believe that every student, irrespective of their college or branch, can make it big. Community Classroom is an initiative built on this thought. We provide hands-on training, mentorship and have an inclusive community. All of our courses are FREE and better than most paid courses. We cover every topic in detail and mentor you to stand out and get opportunities by breaking all the barriers. Get expert guidance with career, Open Source, and internships, jobs around the world.
+
+## Contributing Guidelines : 
+
+You can find all the guidelines [here](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/blob/dev/CONTRIBUTING.md).
+
+
