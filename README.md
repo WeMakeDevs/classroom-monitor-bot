@@ -31,7 +31,6 @@ To get started with contributing go through the following steps
 [Kaiwalya Koparkar](https://github.com/kaiwalyakoparkar)
 
 
-## Contributing
 
 ## Setting up Locale Environment
 
@@ -45,3 +44,18 @@ To get started with contributing go through the following steps
 1. Now after you have forked your project its time to clone it into your local device so that you can work on it
 2. In your forked repository click on the green code button and copy the provided link. In case of any difficulty refer to the image below
     <img src="./doc/Clone.jpg" alt="Demo copy image"/>
+3. Now in your desktop open `git bash` and type `git clone <your-clone-url>.git` and press enter
+4. Now, your forked repo has been cloned in your device 
+
+## Contributing
+
+Before starting make sure you have developer mode enabled in your discord
+If not then got to `Settings > Advanced > Developer Mode: ON`
+
+### Creating a branch
+
+Whenever you want to contribute to any project it is a good practice to make a separate branch and push it as PR rather than making changes to the main/master branch
+
+1. `git branch -b <your-branch-name>` will make a separate branch and will take you to it
+2. Now you are ready to make your desired changes
+
