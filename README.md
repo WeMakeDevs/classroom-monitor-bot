@@ -73,7 +73,7 @@ Whenever you want to contribute to any project it is a good practice to make a s
 7. Now you will appear to this screen(image below)
     <img src="./doc/images/After_adding_bot.jpg" alt="bot dashboard">
 8. Go to `OAuth2` and copy the client id(refer to image below)
-    <img src="./doc/images/ap_id.jpg" alt="bot dashboard">
+    <img src="./doc/images/app_id.jpg" alt="bot dashboard">
 9. Now to invite the bot to your server, paste this link in your browser `https://discord.com/api/oauth2/authorize?client_id=<app-id>&permissions=8&scope=bot` and just replace `<app-id>` with your copied client id
 10. Now you will be redirected to this screen(image below) where you have to select a server and click on `continue` and `authorize` after that
     <img src="./doc/images/add_server.jpg" alt="server page">
