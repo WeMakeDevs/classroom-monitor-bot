@@ -125,3 +125,9 @@ This bot is reserved for functionalities offered for community classroom communi
 ### Maintainer :
 
 [Kaiwalya Koparkar](https://github.com/kaiwalyakoparkar)
+
+## Contributors List:
+
+<a href="https://github.com/kaiwalyakoparkar/classroom-monitor-bot/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=kaiwalyakoparkar/classroom-monitor-bot" />
+</a>
