@@ -19,7 +19,7 @@ const helpEmbed = new Discord.MessageEmbed()
 	)
 	.setTimestamp()
 	.setFooter(
-		'Want help? Classroom monitor is just `cc!help` far',
+		'Want help? Classroom monitor is just `cm!help` far',
 		'https://i.imgur.com/yMCOBLH.png'
 	);
 
