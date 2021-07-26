@@ -34,6 +34,7 @@ module.exports = (client, callback) => {
             if(message.content.toLowerCase().includes(words[i])) {
                 message.reply('Please do not talk about other edTech startups here 🚫. If you think I did a mistake dont worry I am still under development, tag Community Manager and report this 🏷️. ');
                 message.author.send(warnEmbed);
+                message.delete();
             }
         }
 
