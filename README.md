@@ -38,4 +38,12 @@ You can find all the guidelines [here](https://github.com/kaiwalyakoparkar/class
 
 You can find the code of conduct [here](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/blob/dev/CODE_OF_CONDUCT.md).
 
+## Commands Supported : 
+
+#### `cm!help` - Helps with the commands and features what the bot offers.
+#### `cm!hey` - Says 'Hey' to the user.
+#### `cm!version` - Displays the current running version of the bot.
+#### `cm!links` - Displays all the social accounts of the community.
+
+
 
