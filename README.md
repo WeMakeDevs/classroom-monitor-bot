@@ -122,6 +122,12 @@ Whenever you want to contribute to any project it is a good practice to make a s
 
 This bot is reserved for functionalities offered for community classroom community.
 
+## Contributors :
+
+<a href = "https://github.com/kaiwalyakoparkar/classroom-monitor-bot/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=kaiwalyakoparkar/classroom-monitor-bot"/>
+</a>
+
 ### Maintainer :
 
 [Kaiwalya Koparkar](https://github.com/kaiwalyakoparkar)
