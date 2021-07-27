@@ -24,7 +24,7 @@
   <a href="https://t.me/commclassroom">
     <img width="30px" src="https://www.vectorlogo.zone/logos/telegram/telegram-icon.svg" />
   </a><br>
-</p>  
+</p>
 
 ## About :
 
@@ -68,7 +68,7 @@ To get started with contributing go through the following steps
 2. In your forked repository click on the green code button and copy the provided link. In case of any difficulty refer to the image below
     <img src="./doc/images/Clone.jpg" alt="Demo copy image"/>
 3. Now in your desktop open `git bash` and type `git clone <your-clone-url>.git` and press enter
-4. Now, your forked repo has been cloned in your device 
+4. Now, your forked repo has been cloned in your device
 
 ## Contributing
 
@@ -88,7 +88,7 @@ Whenever you want to contribute to any project it is a good practice to make a s
 2. Login with your discord credentials and will see the screen(image below and for you it will probably be a blank one)
     <img src="./doc/images/HomePage.jpg" alt="home page">
 3. Now click the `New Application` button(refer to image above)
-4. Name your bot and press `create` 
+4. Name your bot and press `create`
 5. Now you will appear at the application dashboard where you can customize your bot(refer to image below)
     <img src="./doc/images/Dashboard.jpg" alt="dashboard">
 6. Now to create your bot instance go to `Bot` tab and press`Add Bot` followed by `Yes,do it` in the following popup(refer to image below)
@@ -113,7 +113,7 @@ Whenever you want to contribute to any project it is a good practice to make a s
 5. Then to start our server run `npm start`, this will start our server and the bot will be online
 
 
-## Commands Supported : 
+## Commands Supported :
 
 #### `cm!help` - Helps with the commands and features what the bot offers.
 #### `cm!hey` - Says 'Hey' to the user.
@@ -128,6 +128,17 @@ This bot is reserved for functionalities offered for community classroom communi
 
 ## Contributors List:
 
-<a href="https://github.com/kaiwalyakoparkar/classroom-monitor-bot/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=kaiwalyakoparkar/classroom-monitor-bot" />
-</a>
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/kaiwalyakoparkar"><img src="https://avatars.githubusercontent.com/u/53310847?v=4" width="100px;" alt=""/><br /><sub><b>Kaiwalya Koparkar</b></sub></td>
+    <td align="center"><a href="https://github.com/vind3v17"><img src="https://avatars.githubusercontent.com/u/83384807?v=4" width="100px;" alt=""/><br /><sub><b>vind3v17</b></sub></a></td>
+    <td align="center"><a href="https://github.com/Amrutha1101"><img src="https://avatars.githubusercontent.com/u/63070698?v=4" width="100px;" alt=""/><br /><sub><b>Amrutha1101</b></sub></a></td>
+    <td align="center"><a href="https://github.com/jayesh-srivastava"><img src="https://avatars.githubusercontent.com/u/49337716?v=4" width="100px;" alt=""/><br /><sub><b>Jayesh Srivastava</b></sub></a></td>
+    <td align="center"><a href="https://github.com/Ciggzy1312"><img src="https://avatars.githubusercontent.com/u/65884232?v=4" width="100px;" alt=""/><br /><sub><b>Deepayan Mukherjee</b></sub></a></td>
+    <td align="center"><a href="https://github.com/VDA-001"><img src="https://avatars.githubusercontent.com/u/67089703?v=4" width="100px;" alt=""/><br /><sub><b>Vishal D A</b></sub></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/ItsMeIshan"><img src="https://avatars.githubusercontent.com/u/65131563?v=4" width="100px;" alt=""/><br /><sub><b>Ishan Soni</b></sub></a></td>
+    <td align="center"><a href="https://github.com/juuz0"><img src="https://avatars.githubusercontent.com/u/26814569?v=4" width="100px;" alt=""/><br /><sub><b>juuz0</b></sub></a></td>
+  </tr>
+ </table>
