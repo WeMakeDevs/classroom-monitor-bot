@@ -1,5 +1,5 @@
 module.exports = async function (client) {
-	client.user.setPresence({
+    client.user.setPresence({
         status: 'online',
         activity: {
             name: 'cm!help',
