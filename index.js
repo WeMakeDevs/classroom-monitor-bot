@@ -12,6 +12,7 @@ const hey = require('./Commands/hey.js');
 const version = require('./Commands/version.js');
 const help = require('./Commands/help.js');
 const links = require('./Commands/links.js');
+const prevent = require('./Commands/preventwords.js');
 const restrict = require('./Commands/restrictedWords.js');
 
 // Up commands
@@ -43,7 +44,7 @@ client.on('ready', () => {
     command(client, 'links', message => {
     	message.channel.send(links);
     });
-
+    prevent(client, message => {});
     restrict(client, message => {});
 });
 
