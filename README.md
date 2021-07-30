@@ -129,6 +129,3 @@ Every contributor's efforts and time are deeply appreciated :smile:
 <a href = "https://github.com/kaiwalyakoparkar/classroom-monitor-bot/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=kaiwalyakoparkar/classroom-monitor-bot"/>
 </a>
-
-### Maintainer :
-[Kaiwalya Koparkar](https://github.com/kaiwalyakoparkar)
