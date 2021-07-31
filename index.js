@@ -14,43 +14,56 @@ const version = require('./Commands/version.js');
 const help = require('./Commands/help.js');
 const links = require('./Commands/links.js');
 const restrict = require('./Commands/restrictedWords.js');
+const mongoose = require('mongoose');
+const { handleConfiguration } = require('./Commands/config.handler');
 
 // Up commands
+async function init() {
+	client.on('ready', () => {
+		console.log(
+			`Classroom Monitor is currently running on version v${
+				require('./package.json').version
+			}`
+		);
 
-client.on('ready', () => {
+		//Bot Status
+		presence(client);
 
-    console.log(
-		`Classroom Monitor is currently running on version v${
-			require('./package.json').version
-		}`
-	);
-	
-    //Bot Status
-    presence(client);
+		//Hey Command
+		command(client, 'hey', (message) => {
+			hey(message);
+		});
 
-    //Hey Command
-    command(client,'hey', message => {
-        hey(message);
-    });
+		//Version Command
+		command(client, 'version', (message) => {
+			version(message);
+		});
 
-    //Version Command
-    command(client,'version', message => {
-        version(message);
-    });
+		//Help Command
+		command(client, 'help', (message) => {
+			message.channel.send(help);
+		});
 
-    //Help Command
-    command(client, 'help', message => {
-    	message.channel.send(help);
-    });
+		//Links Command
+		command(client, 'links', (message) => {
+			message.channel.send(links);
+		});
 
-    //Links Command
-    command(client, 'links', message => {
-    	message.channel.send(links);
-    });
+		handleConfiguration(client);
 
-    restrict(client, message => {});
-});
+		restrict(client, (message) => {});
+	});
 
-// Authentications
+	try {
+		await mongoose.connect(process.env.MONGO_CONNECTION_STRING, {
+			useNewUrlParser: true,
+		});
+		console.log('Connected to MongoDB');
+	} catch (error) {
+		throw new Error('Couldnt connect to database');
+	}
 
-client.login(process.env.BOT_TOKEN);
+	await client.login(process.env.BOT_TOKEN);
+}
+
+init();
