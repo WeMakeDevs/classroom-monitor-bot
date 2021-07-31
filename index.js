@@ -7,6 +7,7 @@ require('dotenv').config();
 
 //Command inclusion
 
+const presence = require('./Commands/presence.js');
 const command = require('./Commands/command.js');
 const hey = require('./Commands/hey.js');
 const version = require('./Commands/version.js');
@@ -23,6 +24,9 @@ client.on('ready', () => {
 			require('./package.json').version
 		}`
 	);
+	
+    //Bot Status
+    presence(client);
 
     //Hey Command
     command(client,'hey', message => {
