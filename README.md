@@ -122,6 +122,142 @@ Whenever you want to contribute to any project it is a good practice to make a s
 
 This bot is reserved for functionalities offered for community classroom community.
 
+=======
+
+## Commit Message
+
+After making the desired changes and testing use `git add .` command to add the files to the Git staging area. This area contains a list of all the files you have recently changed. 
+
+`git commit -m <Type in the commit message>` to commit your changes to save your changes to the local repository.
+
+##### We follow conventional commits specifications for our commit messages
+
+
+### Commit Message Format
+
+Each commit message consists of a **header**, a **body**, and a **footer**.
+
+```
+<header>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
+Any line of the commit message cannot be longer than 100 characters.
+
+#### Commit Message Header
+
+```
+<type>(<scope>): <short summary>
+  │       │             │
+  │       │             └─⫸ Summary in present tense. Not capitalized. No period at the end.
+  │       │
+  │       └─⫸ Commit Scope: animations|bazel|benchpress|common|compiler|compiler-cli|core|
+  │                          elements|forms|http|language-service|localize|platform-browser|
+  │                          platform-browser-dynamic|platform-server|router|service-worker|
+  │                          upgrade|zone.js|packaging|changelog|dev-infra|docs-infra|migrations|
+  │                          ngcc|ve
+  │
+  └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
+```
+
+The `<type>` and `<summary>` fields are mandatory, the `(<scope>)` field is optional.
+
+
+##### Type
+
+Must be one of the following:
+* `feat`     Commits, that adds a new feature
+* `fix`      Commits, that fixes a bug
+* `refactor` Commits, that rewrite/restructure your code, however does not change any behaviour
+* `perf`     Commits are special `refactor` commits, that improves performance
+* `style`    Commits, that do not affect the meaning (white-space, formatting, missing semi-colons, etc)
+* `test`     Commits, that add missing tests or correcting existing tests
+* `docs`     Commits, that affect documentation only
+* `build`    Commits, that affect build components like build tool, ci pipeline, dependencies, project version, ...
+* `ops`   Commits, that affect operational components like infrastructure, deployment, backup, recovery, ...
+* `chore`    Miscellaneous commits e.g. modifying `.gitignore`
+
+
+##### Scope
+
+The `scope` provides additional contextual information.
+* Is an **optional** part of the format
+* Allowed Scopes depends on the specific project
+* Don't use issue identifiers as scopes
+
+
+##### Summary
+
+Use the summary field to provide a succinct description of the change:
+
+* use the imperative, present tense: "fix" not "fixed" nor "fixes"
+* don't capitalize the first letter
+* No dot (.) at the end
+* Your commit message should not contain any whitespace errors
+* Remove unnecessary punctuation marks
+
+
+#### Commit Message Body
+
+* The `body` should include the motivation for the change and contrast this with previous behavior. This commit message should explain _why_ you are making the change.
+* Is an **optional** part of the format
+* Use the imperative, present tense: "fix" not "fixed" nor "fixes"
+* This is the place to mention issue identifiers and their relations
+
+
+#### Commit Message Footer
+
+The `footer` can contain information about breaking changes and is also the place to reference GitHub issues, and other PRs that this commit closes or is related to.
+
+```
+BREAKING CHANGE: <breaking change summary>
+<BLANK LINE>
+<breaking change description + migration instructions>
+<BLANK LINE>
+<BLANK LINE>
+Fixes #<issue number>
+```
+
+Breaking Change section should start with the phrase "BREAKING CHANGE: " followed by a summary of the breaking change, a blank line, and a detailed description of the breaking change that also includes migration instructions.
+
+It's an **optional** part of the format.
+
+
+### Creating commits
+
+* ```
+  type: :emoji: summary (changes made)
+  ```
+
+To know which `type` to use refer [this](#type)
+
+To find suitable emoji for the changes refer [this](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
+
+For summary refer [this](#summary)
+
+
+#### Some of the tips to write good commit message
+
+* Separate the subject from the body with a blank line
+* Your commit message should not contain any whitespace errors
+* Remove unnecessary punctuation marks
+* Do not end the subject line with a period
+* Capitalize the subject line and each paragraph
+* Use the imperative mood in the subject line
+* Use the body to explain what changes you have made and why you made them.
+* Do not assume the reviewer understands what the original problem was, ensure you add it.
+* Do not think your code is self-explanatory
+* Follow the commit convention defined by your team
+
+
+#### Example
+```
+feat: :sparkles: add the amazing button
+```
+
 ## Contributors :
 
 Every contributor's efforts and time are deeply appreciated :smile:

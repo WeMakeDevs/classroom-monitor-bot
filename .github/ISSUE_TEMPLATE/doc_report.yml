@@ -1,0 +1,16 @@
+name: Documentation request
+description: Change regarding improvising the docs to be more accessible
+title: '[Doc]: '
+labels: [documentation, enhancement, good first issue]
+body:
+  - type: checkboxes
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is
+      options:
+        - label: Information addition regarding the newest change through a PR.
+        - label: Typo error.
+        - label: New category addition.
+        - label: Refractoring sentences that make more sense.
+        - label: Fixing broken links.
+        - label: Refractors / reformating of the document.
