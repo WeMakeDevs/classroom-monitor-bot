@@ -18,6 +18,7 @@ const mongoose = require('mongoose');
 const { handleConfiguration } = require('./Commands/config.handler');
 const addBlacklist = require('./Commands/add-blacklist');
 const removeBlacklist = require('./Commands/remove-blacklist');
+const getBlacklist = require('./Commands/get-blacklist');
 
 // Up commands
 async function init() {
@@ -57,6 +58,10 @@ async function init() {
 
 		command(client, 'remove-blacklist', (message) => {
 			removeBlacklist(message);
+		});
+
+		command(client, 'get-blacklist', (message) => {
+			getBlacklist(message);
 		});
 
 		handleConfiguration(client);

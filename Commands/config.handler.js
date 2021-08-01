@@ -1,10 +1,12 @@
 const { DatabaseService } = require('../services/database.service');
-const { prefix } = require('../config.json');
+const { prefix, adminRole } = require('../config.json');
 
 function handleConfiguration(client) {
 	const dbService = new DatabaseService();
 
 	client.on('message', async (message) => {
+		if (message.member.roles.cache.some((role) => role.name === adminRole))
+			return;
 		if (message.content.includes(prefix)) return;
 		if (message.author.bot) return;
 		const id = message.channel.id;
