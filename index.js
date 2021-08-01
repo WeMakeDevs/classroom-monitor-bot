@@ -16,6 +16,8 @@ const links = require('./Commands/links.js');
 const restrict = require('./Commands/restrictedWords.js');
 const mongoose = require('mongoose');
 const { handleConfiguration } = require('./Commands/config.handler');
+const addBlacklist = require('./Commands/add-blacklist');
+const removeBlacklist = require('./Commands/remove-blacklist');
 
 // Up commands
 async function init() {
@@ -47,6 +49,14 @@ async function init() {
 		//Links Command
 		command(client, 'links', (message) => {
 			message.channel.send(links);
+		});
+
+		command(client, 'add-blacklist', (message) => {
+			addBlacklist(message);
+		});
+
+		command(client, 'remove-blacklist', (message) => {
+			removeBlacklist(message);
 		});
 
 		handleConfiguration(client);

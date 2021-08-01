@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const ConfigSchema = new Schema({
 	_id: String,
-	forbiddenWords: [String],
+	blacklist: [String],
 });
 
 const Configuration = mongoose.model('Configuration', ConfigSchema);
