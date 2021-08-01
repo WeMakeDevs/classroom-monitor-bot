@@ -18,7 +18,7 @@
   <a href="https://www.instagram.com/commclassroom/">
     <img width="30px" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" />
   </a>&ensp;
-  <a href="https://discord.gg/K9kxUXvfND">
+  <a href="https://discord.gg/commclassroom">
     <img width="30px" src="https://www.vectorlogo.zone/logos/discordapp/discordapp-tile.svg" />
   </a>&ensp;
   <a href="https://t.me/commclassroom">
