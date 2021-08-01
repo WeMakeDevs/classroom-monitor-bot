@@ -79,7 +79,7 @@ If not then got to `Settings > Advanced > Developer Mode: ON`
 
 Whenever you want to contribute to any project it is a good practice to make a separate branch and push it as PR rather than making changes to the main/master branch
 
-1. `git branch -b <your-branch-name>` will make a separate branch and will take you to it
+1. `git checkout -b <your-branch-name>` will make a separate branch and will take you to it
 2. Now you are ready to make your desired changes
 
 ### Setting up application and creating bot
