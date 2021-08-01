@@ -122,6 +122,7 @@ Whenever you want to contribute to any project it is a good practice to make a s
 
 This bot is reserved for functionalities offered for community classroom community.
 
+=======
 
 ## Commit Message
 
@@ -257,6 +258,10 @@ For summary refer [this](#summary)
 feat: :sparkles: add the amazing button
 ```
 
-### Maintainer :
+## Contributors :
 
-[Kaiwalya Koparkar](https://github.com/kaiwalyakoparkar)
+Every contributor's efforts and time are deeply appreciated :smile:
+
+<a href = "https://github.com/kaiwalyakoparkar/classroom-monitor-bot/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=kaiwalyakoparkar/classroom-monitor-bot"/>
+</a>
