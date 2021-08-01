@@ -30,7 +30,7 @@ const linkEmbed = new Discord.MessageEmbed()
 		},
 		{
 			name: 'Discord Invite',
-			value: 'https://discord.gg/K9kxUXvfND',
+			value: 'https://discord.gg/commclassroom',
 		},
 		{
 			name: 'Telegram Invite',
