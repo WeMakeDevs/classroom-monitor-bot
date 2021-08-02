@@ -13,17 +13,17 @@ const linkEmbed = new Discord.MessageEmbed()
 	)
 	.addFields(
         {
-            name: 'Complete Java + DSA course',
-            value: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ',
+         	name: 'Complete Java + DSA course',
+         	value: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ',
         },
-		{
-			name: 'Code sample and full syllabus for DSA lectures',
-			value: 'https://github.com/kunal-kushwaha/DSA-Bootcamp-Java',
-		},
+	{
+		name: 'Code sample and full syllabus for DSA lectures',
+		value: 'https://github.com/kunal-kushwaha/DSA-Bootcamp-Java',
+	},
         {
-			name: 'Try hands on git',
-			value: 'https://github.com/kunal-kushwaha/commclassroomOP',
-		}
+		name: 'Try hands on git',
+		value: 'https://github.com/kunal-kushwaha/commclassroomOP',
+	}
 	)
 	.setTimestamp()
 	.setFooter(
