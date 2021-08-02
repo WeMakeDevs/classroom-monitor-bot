@@ -14,6 +14,7 @@ const version = require('./Commands/version.js');
 const help = require('./Commands/help.js');
 const links = require('./Commands/links.js');
 const restrict = require('./Commands/restrictedWords.js');
+const DSA = require('./Commands/DSA.js');
 
 // Up commands
 
@@ -46,6 +47,11 @@ client.on('ready', () => {
     //Links Command
     command(client, 'links', message => {
     	message.channel.send(links);
+    });
+
+    //DSA Command
+    command(client, 'dsa', message => {
+    	message.channel.send(DSA);
     });
 
     restrict(client, message => {});
