@@ -12,6 +12,8 @@ module.exports = {
         translate(args, null, 'en', true).then(res => {
             if (res.translation == 'cm!translate')
                 message.channel.send("Please provide the text to translate");
+            else if (res.translation == args) 
+                message.channel.send("The text is already in English or I can't understand what language it is\nNote: I can't Understands languages such as Hindi or Japnaneese in Latin Alphabet.");
             else
                 message.channel.send(res.translation);
           }).catch(err => {
