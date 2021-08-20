@@ -15,6 +15,7 @@ const help = require('./Commands/help.js');
 const links = require('./Commands/links.js');
 const restrict = require('./Commands/restrictedWords.js');
 const DSA = require('./Commands/DSA.js');
+const Translate = require('./Commands/translate.js');
 
 // Up commands
 
@@ -52,6 +53,11 @@ client.on('ready', () => {
     //DSA Command
     command(client, 'dsa', message => {
     	message.channel.send(DSA);
+    });
+
+    //Translate
+    command(client, 'translate', message => {
+        Translate.execute(message);
     });
 
     restrict(client, message => {});
