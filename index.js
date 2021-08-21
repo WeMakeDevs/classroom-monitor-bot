@@ -61,6 +61,11 @@ client.on('ready', () => {
         Translate.execute(message);
     });
 
+    //Meme
+    command(client, 'meme', message => {
+        Meme.execute(message);
+    });
+
     restrict(client, message => {});
 });
 
