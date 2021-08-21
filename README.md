@@ -121,6 +121,8 @@ Whenever you want to contribute to any project it is a good practice to make a s
 #### `cm!links` - Displays all the social accounts of the community.
 #### `cm!translate <text>` - Translate given text to English.
 
+#### `cm!meme` - Send a meme from r/programmerhumor.
+
 This bot is reserved for functionalities offered for community classroom community.
 
 =======
