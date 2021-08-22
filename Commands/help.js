@@ -14,7 +14,7 @@ const helpEmbed = new Discord.MessageEmbed()
 	.addFields(
 		{
 			name: 'Current Supported Commands',
-			value: '`hey`, `help`,`version`,`links`,`translate`',
+			value: '`hey`, `help`,`version`,`links`,`translate`,`meme`',
 		}
 	)
 	.setTimestamp()

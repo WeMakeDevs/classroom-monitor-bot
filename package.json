@@ -45,6 +45,7 @@
   "dependencies": {
     "bing-translate-api": "^2.2.0",
     "discord.js": "^12.5.3",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "memejs": "^2.0.1"
   }
 }
