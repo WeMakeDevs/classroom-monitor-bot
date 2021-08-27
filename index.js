@@ -17,6 +17,7 @@ const restrict = require('./Commands/restrictedWords.js');
 const DSA = require('./Commands/DSA.js');
 const Translate = require('./Commands/translate.js');
 const Meme = require("./Commands/meme");
+const source = require("./Commands/source.js");
 
 // Up commands
 
@@ -64,6 +65,11 @@ client.on('ready', () => {
     //Meme
     command(client, 'meme', message => {
         Meme.execute(message);
+    });
+
+    //github
+    command(client, 'source', message => {
+    	message.channel.send(source);
     });
 
     restrict(client, message => {});
