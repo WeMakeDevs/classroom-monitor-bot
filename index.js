@@ -16,8 +16,8 @@ const links = require('./Commands/links.js');
 const restrict = require('./Commands/restrictedWords.js');
 const DSA = require('./Commands/DSA.js');
 const Translate = require('./Commands/translate.js');
-const Meme = require("./Commands/meme");
-const source = require("./Commands/source.js");
+const Meme = require('./Commands/meme');
+const source = require('./Commands/source.js');
 
 // Up commands
 
