@@ -15,7 +15,7 @@ module.exports = {
 				else message.channel.send(res.translation);
 			} catch {
 				message.channel.send('Sorry, I had an error :(');
-				console.error(err);
+				console.error((err) => console.log(err));
 			}
 		}
 	},
