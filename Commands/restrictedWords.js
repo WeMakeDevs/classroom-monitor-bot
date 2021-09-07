@@ -38,11 +38,31 @@ const words = [
     'whitehatjunior'
 ]
 
+const curseWords = [
+    'fuck',
+    'shit',
+    'bitch',
+    'asshole',
+    'ass',
+    'kys',
+    'kill your self',
+    'bastard',
+    'dick'
+]
+
 module.exports = (client, callback) => {
     client.on('message', message => {
-        for (var i=0; i < words.length; i++) {
+        for (let i=0; i < words.length; i++) {
             if(message.content.toLowerCase().includes(words[i])) {
                 message.reply('Please do not talk about other edTech startups here 🚫. If you think I did a mistake dont worry I am still under development, tag Community Manager and report this 🏷️. ');
+                message.author.send(warnEmbed);
+                message.delete();
+            }
+        }
+
+        for (let i = 0; i < curseWords.length; i++) {
+            if(message.content.toLowerCase().includes(curseWords[i])) {
+                message.reply('Please do not use profane language 🚫. If you think I did a mistake dont worry I am still under development, tag Community Manager and report this 🏷️.');
                 message.author.send(warnEmbed);
                 message.delete();
             }
