@@ -2,77 +2,58 @@
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const fs = require('fs');
+const { prefix } = require('./config.json');
 
 require('dotenv').config();
-
+client.commands = new Discord.Collection();
 //Command inclusion
 
 const presence = require('./Commands/presence.js');
-const command = require('./Commands/command.js');
-const hey = require('./Commands/hey.js');
-const version = require('./Commands/version.js');
-const help = require('./Commands/help.js');
-const links = require('./Commands/links.js');
 const restrict = require('./Commands/restrictedWords.js');
-const DSA = require('./Commands/DSA.js');
-const Translate = require('./Commands/translate.js');
-const Meme = require('./Commands/meme');
-const source = require('./Commands/source.js');
 
 // Up commands
 
-client.on('ready', () => {
+const commandFiles = fs
+	.readdirSync('./Commands/')
+	.filter((file) => file.endsWith('.js'));
+for (const file of commandFiles) {
+	const command = require(`./Commands/${file}`);
 
-    console.log(
+	client.commands.set(command.name, command);
+}
+
+client.on('ready', () => {
+    
+	console.log(
 		`Classroom Monitor is currently running on version v${
 			require('./package.json').version
 		}`
 	);
-	
-    //Bot Status
-    presence(client);
 
-    //Hey Command
-    command(client,'hey', message => {
-        hey(message);
-    });
+	//Bot Status
+	presence(client);
 
-    //Version Command
-    command(client,'version', message => {
-        version(message);
-    });
+	// restricted words
+	restrict(client, (message) => {});
+});
 
-    //Help Command
-    command(client, 'help', message => {
-    	message.channel.send(help);
-    });
+client.on('message', (message) => {
+	if (
+		!message.content.startsWith(prefix) ||
+		message.author.bot ||
+		message.channel.type == 'dm'
+	)
+		return;
 
-    //Links Command
-    command(client, 'links', message => {
-    	message.channel.send(links);
-    });
+	const args = message.content.slice(prefix.length).split(/ +/);
+	const command = args.shift().toLowerCase();
 
-    //DSA Command
-    command(client, 'dsa', message => {
-    	message.channel.send(DSA);
-    });
-
-    //Translate
-    command(client, 'translate', message => {
-        Translate.execute(message);
-    });
-
-    //Meme
-    command(client, 'meme', message => {
-        Meme.execute(message);
-    });
-
-    //github
-    command(client, 'source', message => {
-    	message.channel.send(source);
-    });
-
-    restrict(client, message => {});
+	try {
+		client.commands.get(command).execute(message, args, Discord);
+	} catch {
+		message.channel.send("Please use a valid command :slight_smile:\nTo see the list of valid commands use `cm!help`")
+	}
 });
 
 // Authentications
