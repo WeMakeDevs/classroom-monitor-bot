@@ -62,7 +62,7 @@ module.exports = (client, callback) => {
 
         for (let i = 0; i < curseWords.length; i++) {
             if(message.content.toLowerCase().includes(curseWords[i])) {
-                message.author.send('Please do not use profane language 🚫. If you think I did a mistake dont worry I gam still under development, tag Community Manager and report this 🏷️.');
+                message.author.send('Please do not use profane language 🚫. If you think I did a mistake dont worry I am still under development, tag Community Manager and report this 🏷️.');
                 message.author.send(warnEmbed);
                 message.delete();
                 break;
