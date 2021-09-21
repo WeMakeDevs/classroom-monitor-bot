@@ -1,6 +1,6 @@
 {
   "name": "classroom-monitor-bot",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Friendly class monitor for community classroon discord server",
   "main": "index.js",
   "scripts": {
