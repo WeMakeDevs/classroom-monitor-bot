@@ -55,7 +55,7 @@ To get started with contributing go through the following steps
 3. [NodeJS](https://nodejs.org/en/)
 4. [expressJS](https://expressjs.com/)
 
-## Setting up Locale Environment
+## Setting up Local Environment
 
 ### Forking repository
 
