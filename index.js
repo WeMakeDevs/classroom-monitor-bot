@@ -40,9 +40,9 @@ client.on('ready', () => {
 
 client.on('message', (message) => {
 	if (
-		!message.content.startsWith(prefix) ||
+		(!message.content.startsWith(prefix)) ||
 		message.author.bot ||
-		message.channel.type == 'dm'
+		message.channel.type == 'DM'
 	)
 		return;
 
