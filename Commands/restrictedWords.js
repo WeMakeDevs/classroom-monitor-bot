@@ -1,10 +1,12 @@
 const Discord = require('discord.js');
+const alexjs = require('alex')
+const config = require('../config.json').alexjs
 const warnEmbed = new Discord.MessageEmbed()
     .setColor('#f44336')
     .setTitle('Community monitor warning you!!')
     .setURL('https://github.com/kaiwalyakoparkar/classroom-monitor-bot')
     .setAuthor(
-        'Classroon monitor',
+        'Classroom monitor',
         'https://i.imgur.com/yMCOBLH.png',
         'https://discord.js.org'
     )
@@ -38,22 +40,10 @@ const words = [
     'whitehatjunior'
 ]
 
-const curseWords = [
-    'fuck',
-    'shit',
-    'bitch',
-    'asshole',
-    'ass',
-    'kys',
-    'kill your self',
-    'bastard',
-    'dick'
-]
-
 module.exports = (client, callback) => {
     client.on('message', message => {
-        for (let i=0; i < words.length; i++) {
-            if(message.content.toLowerCase().includes(words[i])) {
+        for (let i = 0; i < words.length; i++) {
+            if (message.content.toLowerCase().includes(words[i])) {
                 message.author.send('Please do not talk about other edTech startups here 🚫. If you think I did a mistake dont worry I am still under development, tag Community Manager and report this 🏷️. ');
                 message.author.send(warnEmbed);
                 message.delete();
@@ -61,13 +51,10 @@ module.exports = (client, callback) => {
             }
         }
 
-        for (let i = 0; i < curseWords.length; i++) {
-            if(message.content.toLowerCase().includes(curseWords[i])) {
-                message.author.send('Please do not use profane language 🚫. If you think I did a mistake dont worry I am still under development, tag Community Manager and report this 🏷️.');
-                message.author.send(warnEmbed);
-                message.delete();
-                break;
-            }
+        if (alexjs.markdown(message.content, config).messages.length) {
+            message.channel.send('Please do not use profane language 🚫. If you think I did a mistake dont worry I am still under development, tag Community Manager and report this 🏷️.', warnEmbed);
+            return;
         }
     });
 };
+
