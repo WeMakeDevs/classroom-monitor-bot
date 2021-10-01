@@ -108,7 +108,7 @@ Whenever you want to contribute to any project it is a good practice to make a s
 1. Open the folder of your cloned repository with any text editor of your choice
 2. Now go to developers portal where you created the bot and copy the bot token from `Bot` tab(refer to image below)
     <img src="./doc/images/BotToken.jpg" alt="bot token">
-3. Now create a `.env` file in your root folder and copy everything from `.env-sample` file and replace the `BOT-TOKEN` value with the copied token
+3. Now create a `.env` file in your root folder and copy everything from `.env-sample` file and replace the `BOT-TOKEN` value with the copied token. Note that the `.env` file should be nameless. Create a file with no name, and just the extenstion of `.env`. If you add a name to the file, `npm start` will not be able to access the token.
 4. In the terminal run `npm install`, this will install all the packages
 5. Then to start our server run `npm start`, this will start our server and the bot will be online
 
