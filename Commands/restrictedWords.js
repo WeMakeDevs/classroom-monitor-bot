@@ -4,7 +4,7 @@ const warnEmbed = new Discord.MessageEmbed()
     .setTitle('Community monitor warning you!!')
     .setURL('https://github.com/kaiwalyakoparkar/classroom-monitor-bot')
     .setAuthor(
-        'Classroom monitor',
+        'Classroom Monitor',
         'https://i.imgur.com/yMCOBLH.png',
         'https://discord.js.org'
     )
