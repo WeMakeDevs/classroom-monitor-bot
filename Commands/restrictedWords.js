@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const alexjs = require('alex')
+const config = require('../config.json').alexjs
 const warnEmbed = new Discord.MessageEmbed()
     .setColor('#f44336')
     .setTitle('Community monitor warning you!!')
@@ -50,7 +51,7 @@ module.exports = (client, callback) => {
             }
         }
 
-        if (alexjs.markdown(message.content).messages.length) {
+        if (alexjs.markdown(message.content, config).messages.length) {
             message.channel.send('Please do not use profane language 🚫. If you think I did a mistake dont worry I am still under development, tag Community Manager and report this 🏷️.', warnEmbed);
             return;
         }
