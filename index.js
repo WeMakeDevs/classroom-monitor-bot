@@ -24,10 +24,9 @@ for (const file of commandFiles) {
 }
 
 client.on('ready', () => {
-    
+
 	console.log(
-		`Classroom Monitor is currently running on version v${
-			require('./package.json').version
+		`Classroom Monitor is currently running on version v${require('./package.json').version
 		}`
 	);
 
@@ -35,16 +34,14 @@ client.on('ready', () => {
 	presence(client);
 
 	// restricted words
-	restrict(client, (message) => {});
+	restrict(client, (message) => { });
 });
 
 client.on('message', (message) => {
 	if (
 		(!message.content.startsWith(prefix)) || message.author.bot || message.channel.type == 'dm'
 	)
-return;
-		
-		console.log()
+		return;
 
 	const args = message.content.slice(prefix.length).split(/ +/);
 	const command = args.shift().toLowerCase();
