@@ -1,6 +1,6 @@
 {
   "name": "classroom-monitor-bot",
-  "version": "1.5.0",
+  "version": "1.6.1",
   "description": "Friendly class monitor for community classroon discord server",
   "main": "index.js",
   "scripts": {
@@ -44,6 +44,8 @@
     ]
   },
   "dependencies": {
+    "alex": "^9.1.0",
+    "alexjs": "^1.0.0",
     "bing-translate-api": "^2.2.0",
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
