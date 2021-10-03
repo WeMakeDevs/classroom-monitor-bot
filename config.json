@@ -1,3 +1,14 @@
 {
-    "prefix": "cm!"
+    "prefix": "cm!",
+    "alexjs": {
+        "allow": [
+            "he-she",
+            "her-him",
+            "gal-guy",
+            "dad-mom",
+            "brother-sister",
+            "just"
+            "easy"
+        ]
+    }
 }
