@@ -40,6 +40,8 @@ const words = [
     'whitehatjunior'
 ]
 
+const scam = 'hello! I leave from cs:go and give all my inventory, the first three who send a trade'
+
 module.exports = (client, callback) => {
     client.on('message', message => {
         for (let i = 0; i < words.length; i++) {
@@ -54,6 +56,10 @@ module.exports = (client, callback) => {
         if (alexjs.markdown(message.content, config).messages.length) {
             message.channel.send('Please do not use profane language 🚫. If you think I did a mistake dont worry I am still under development, tag Community Manager and report this 🏷️.', warnEmbed);
             return;
+        }
+
+        else if (message.content.toLowerCase() === scam.toLowerCase()) {
+            message.delete();
         }
     });
 };
