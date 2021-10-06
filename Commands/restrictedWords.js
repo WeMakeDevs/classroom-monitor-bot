@@ -40,7 +40,7 @@ const words = [
     'whitehatjunior'
 ]
 
-const scam = 'hello! I leave from cs:go and give all my inventory, the first three who send a trade'
+let scam = 'hello! i leave from cs:go and give all my inventory, the first three who send a trade'
 
 module.exports = (client, callback) => {
     client.on('message', message => {
@@ -58,7 +58,7 @@ module.exports = (client, callback) => {
             return;
         }
 
-        else if (message.content.toLowerCase() === scam.toLowerCase()) {
+        else if (message.content.toLowerCase().substring(0,86) === scam) {
             message.delete();
         }
     });
