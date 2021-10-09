@@ -40,6 +40,9 @@ const words = [
     'whitehatjunior'
 ]
 
+let csgo_scam = 'hello! i leave from cs:go and give all my inventory, the first three who send a trade'
+let discrod_scam = 'Yo, friend gave me a referral link to get Discord nitro for free'
+
 module.exports = (client, callback) => {
     client.on('message', message => {
         for (let i = 0; i < words.length; i++) {
@@ -54,6 +57,10 @@ module.exports = (client, callback) => {
         if (alexjs.markdown(message.content, config).messages.length) {
             message.channel.send('Please do not use profane language 🚫. If you think I did a mistake dont worry I am still under development, tag Community Manager and report this 🏷️.', warnEmbed);
             return;
+        }
+
+        else if (message.content.toLowerCase().substring(0,86) === csgo_scam || message.content.toLowerCase().substring(0,65) === discrod_scam) {
+            message.delete();
         }
     });
 };
