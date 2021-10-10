@@ -40,8 +40,9 @@ const words = [
     'whitehatjunior'
 ]
 
-let csgo_scam = 'hello! i leave from cs:go and give all my inventory, the first three who send a trade'
-let discrod_scam = 'Yo, friend gave me a referral link to get Discord nitro for free'
+let csgo_scam = 'hello! i leave from cs:go and give all my inventory, the first three who send a trade';
+let discrod_scam1 = 'Yo, friend gave me a referral link to get Discord nitro for free';
+let discrod_scam2 = "Discord Nitro for Free - Steam Store";
 
 module.exports = (client, callback) => {
     client.on('message', message => {
@@ -59,7 +60,7 @@ module.exports = (client, callback) => {
             return;
         }
 
-        else if (message.content.toLowerCase().substring(0,86) === csgo_scam || message.content.toLowerCase().substring(0,65) === discrod_scam) {
+        else if (message.content.toLowerCase().substring(0,86) === csgo_scam || message.content.toLowerCase().substring(0,65) === discrod_scam1 || message.content.toLowerCase().substring(0,37) === discrod_scam2) {
             message.delete();
         }
     });
