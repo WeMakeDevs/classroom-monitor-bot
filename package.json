@@ -1,6 +1,6 @@
 {
   "name": "classroom-monitor-bot",
-  "version": "1.6.2",
+  "version": "1.7.1",
   "description": "Friendly class monitor for community classroon discord server",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
+    "docsify-cli": "^4.4.3",
     "eslint": "^7.31.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
@@ -50,5 +51,9 @@
     "dotenv": "^10.0.0",
     "fs": "^0.0.1-security",
     "memejs": "^2.0.1"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
   }
 }
