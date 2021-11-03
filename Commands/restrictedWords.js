@@ -2,8 +2,6 @@ const Discord = require('discord.js');
 const alexjs = require('alex')
 const config = require('../config.json').alexjs
 
-let customMessage;
-
 const warnEmbed = new Discord.MessageEmbed()
     .setColor('#f44336')
     .setTitle('Community monitor warning you!!')
