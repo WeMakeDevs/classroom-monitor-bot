@@ -32,9 +32,10 @@ We believe that every student, irrespective of their college or branch, can make
 
 ## Note to all contributors
 
-Thank you for putting your time to contribute and helping others out.
-Before contributing do kindly read and follow [Code of Conduct](./CODE_OF_CONDUCT.md)
-To get started with contributing go through the following steps
+Thank you for putting your time to contribute and helping others out!\
+Before contributing do kindly read and follow [Code of Conduct](./CODE_OF_CONDUCT.md).
+
+To get started with contributing, go through the following steps.
 
 ## Prerequisites
 
