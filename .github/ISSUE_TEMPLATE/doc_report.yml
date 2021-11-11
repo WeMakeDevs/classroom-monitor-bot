@@ -1,7 +1,7 @@
 name: Documentation request
 description: Change regarding improvising the docs to be more accessible
-title: '[Doc]: '
-labels: [documentation, enhancement, good first issue]
+title: '[DOCUMENTATION]'
+labels: ['✨ goal: improvement']
 body:
   - type: checkboxes
     attributes:

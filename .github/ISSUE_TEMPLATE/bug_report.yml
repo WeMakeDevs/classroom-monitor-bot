@@ -1,7 +1,7 @@
 name: Bug report
 description: Create a report to help us improve
-title: '[Bug]: '
-labels: [bug, Priority-High, want fix, Review Required]
+title: '[BUG] '
+labels: ['💣type: bug']
 body:
   - type: textarea
     attributes:
