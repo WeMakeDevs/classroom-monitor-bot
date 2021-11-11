@@ -190,27 +190,27 @@ Must be one of the following:
 
 The `scope` provides additional contextual information.
 
-* Is an **optional** part of the format
-* Allowed Scopes depend on the specific project
-* Don't use issue identifiers as scopes
+- Is an **optional** part of the format
+- Allowed Scopes depend on the specific project
+- Don't use issue identifiers as scopes
 
 ##### Summary
 
 Use the summary field to provide a succinct description of the change:
 
-* use the imperative, present tense: "fix", not "fixed" nor "fixes"
-* Don't capitalize the first letter
-* No dot (`.`) at the end
-* Your commit message should not contain any whitespace errors
-* Remove unnecessary punctuation marks
+- Use the imperative, present tense: "fix", not "fixed" nor "fixes"
+- Don't capitalize the first letter
+- No dot (`.`) at the end
+- Your commit message should not contain any whitespace errors
+- Remove unnecessary punctuation marks
 
 #### Commit Message Body
 
-* The `body` should include the motivation for the change and contrast this with previous behavior. This commit message should explain _why_ you are making the change.
+- The `body` should include the motivation for the change and contrast this with previous behavior. This commit message should explain _why_ you are making the change.
 
-* Is an **optional** part of the format
-* Use the imperative, present tense: "fix" not "fixed" nor "fixes"
-* This is the place to mention issue identifiers and their relations
+- Is an **optional** part of the format
+- Use the imperative, present tense: "fix" not "fixed" nor "fixes"
+- This is the place to mention issue identifiers and their relations
 
 #### Commit Message Footer
 
@@ -243,16 +243,16 @@ Not sure what to type in the summary? Refer to [this](#summary)
 
 #### Some of the tips to write good commit message
 
-* Separate the subject from the body with a blank line
-* Your commit message should not contain any whitespace errors
-* Remove unnecessary punctuation marks
-* Do not end the subject line with a period
-* Capitalize the subject line and each paragraph
-* Use the imperative mood in the subject line
-* Use the body to explain what changes you have made and why you made them.
-* Do not assume the reviewer understands what the original problem was, ensure you add it.
-* Do not think your code is self-explanatory
-* Follow the commit convention defined by your team
+- Separate the subject from the body with a blank line
+- Your commit message should not contain any whitespace errors
+- Remove unnecessary punctuation marks
+- Do not end the subject line with a period
+- Capitalize the subject line and each paragraph
+- Use the imperative mood in the subject line
+- Use the body to explain what changes you have made and why you made them.
+- Do not assume the reviewer understands what the original problem was, ensure you add it.
+- Do not think your code is self-explanatory
+- Follow the commit convention defined by your team
 
 #### Example
 
