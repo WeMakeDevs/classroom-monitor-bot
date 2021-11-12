@@ -9,7 +9,7 @@
 [X] - Correct
 -->
 
-## Check List (mark all the boxes that are applicable) <!-- Follow the above conventions to check the box -->
+## Check List (mark all applicable checkboxes) <!-- Follow the above conventions to check the box -->
 
 - [ ] My code follows the code style of this project.
 - [ ] My change requires a change to the documentation.
@@ -23,4 +23,3 @@
  Original           | Updated
  :--------------------: |:--------------------:
  original screenshot | updated screenshot |
- 
