@@ -1,15 +1,7 @@
-<!--Type in all the issues that have been fixed through this pull request ex : #1 -->
+# Description
 
-## Fixes Issue
-
-This PR fixes the following issues:
-
-#example
-
-<!-- Write down all the changes made-->
-## Changes proposed
-
-Here comes all the changes proposed through this PR
+<!-- Give a clear description of what modifications you have made -->
+<!-- If it fixes an issue, please add Closes #issue_no below with its respective issue number -->
 
 <!-- Check all the boxes which are applicable to check the box correct follow the following conventions-->
 <!--
@@ -17,7 +9,7 @@ Here comes all the changes proposed through this PR
 [X] - Correct
 -->
 
-## Check List (Check all the boxes which are applicable) <!--Follow the above conventions to check the box-->
+## Check List (mark all the boxes that are applicable) <!-- Follow the above conventions to check the box -->
 
 - [ ] My code follows the code style of this project.
 - [ ] My change requires a change to the documentation.
@@ -26,7 +18,9 @@ Here comes all the changes proposed through this PR
 - [ ] This PR does not contain plagiarized content.
 - [ ] The title of my pull request is a short description of the requested changes.
 
+## Screenshots (if applicable)
 
-<!--Add screen shots of the changed output-->
-## Screenshots 
-Add all the screenshots which support your changes
+ Original           | Updated
+ :--------------------: |:--------------------:
+ original screenshot | updated screenshot |
+ 
