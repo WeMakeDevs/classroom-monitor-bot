@@ -20,7 +20,10 @@
             "crashes",
             "crash",
             "clearly",
-            "host"
+            "host",
+            "japanese",
+            "chinese",
+            "american",
         ]
     }
 }
