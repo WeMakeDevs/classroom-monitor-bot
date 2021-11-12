@@ -28,7 +28,7 @@
 
 ## About
 
-We believe that every student, irrespective of their college or branch, can make it big. Community Classroom is an initiative built on this thought. We provide hands-on training, mentorship and have an inclusive community. All of our courses are FREE and better than most paid courses. We cover every topic in detail and mentor you to stand out and get opportunities by breaking all the barriers. Get expert guidance with career, Open Source, and internships, jobs around the world.
+We believe that every student, irrespective of their college or branch, can make it big. Community Classroom is an initiative built on this thought. We provide hands-on training, mentorship and have an inclusive community. All of our courses are FREE and better than most paid courses. We cover every topic in detail and mentor you to stand out and get opportunities by breaking all the barriers. Get expert guidance with career, Open Source, and internships/jobs around the world.
 
 ## Note to all contributors
 
@@ -128,8 +128,6 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 | `cm!meme`                  | Send a meme from the [r/programmerhumor](https://www.reddit.com/r/ProgrammerHumor/) Reddit
 
 **This bot is reserved for functionalities offered for the Community Classroom community.**
-
-=======
 
 ## Commit Message
 
