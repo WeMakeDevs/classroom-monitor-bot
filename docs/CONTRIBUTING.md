@@ -6,7 +6,7 @@ The following is a set of guidelines for contributing to this project. These are
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by a [Code of Conduct](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/blob/main/code_of_conduct.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [kaiwalyakoparkar@gmail.com](mailto:kaiwalyakoparkar@gmail.com), [in our Discord community](https://discord.io/commclassroom), or to any of our community managers.
+This project and everyone participating in it is governed by a [Code of Conduct](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/blob/main/code_of_conduct.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [kaiwalyakoparkar@gmail.com](mailto:kaiwalyakoparkar@gmail.com), [in our Discord community](https://discord.gg/commclassroom), or to any of our community managers.
 
 ## How Can I Contribute?
 
