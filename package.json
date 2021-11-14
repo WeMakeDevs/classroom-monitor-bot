@@ -1,6 +1,6 @@
 {
   "name": "classroom-monitor-bot",
-  "version": "1.10.1",
+  "version": "1.10.2",
   "description": "Friendly Discord bot for the Community Classroom Discord server",
   "main": "index.js",
   "scripts": {
