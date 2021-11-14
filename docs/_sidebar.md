@@ -1,4 +1,3 @@
-
 -  Commands
     - [cm!help](/commands/help)
     - [cm!hey](/commands/hey)
@@ -8,4 +7,4 @@
     - [cm!meme](/commands/meme)
 
 - [Community](/community)
-- [Contributing](/contributing)
+- [Contributing](/CONTRIBUTING)
