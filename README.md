@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/BVEDXg8.jpg" width=200px height=200px>
+<img src="https://user-images.githubusercontent.com/51391473/141665364-b0ef8d87-6f35-4bee-af39-734b9e338d38.png" width=200px height=200px>
 <h1 align="center"> Classroom Monitor Bot </h1>
 <p>
 <p align="center">
