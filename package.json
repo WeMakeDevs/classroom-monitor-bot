@@ -1,7 +1,7 @@
 {
   "name": "classroom-monitor-bot",
   "version": "1.10.1",
-  "description": "Friendly Discord botr for the Community Classroom Discord server",
+  "description": "Friendly Discord bot for the Community Classroom Discord server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
