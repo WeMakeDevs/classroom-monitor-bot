@@ -19,7 +19,7 @@
     <img width="30px" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" />
   </a>&ensp;
   <a href="https://discord.gg/commclassroom">
-    <img width="30px" src="https://raw.githubusercontent.com/kaiwalyakoparkar/classroom-monitor-bot/fix_discord_logo/docs/images/discord_logo.svg" />
+    <img width="30px" src="https://raw.githubusercontent.com/kaiwalyakoparkar/classroom-monitor-bot/main/docs/images/discord_logo.svg" />
   </a>&ensp;
   <a href="https://t.me/commclassroom">
     <img width="30px" src="https://www.vectorlogo.zone/logos/telegram/telegram-icon.svg" />
