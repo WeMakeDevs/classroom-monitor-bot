@@ -12,7 +12,7 @@ This project and everyone participating in it is governed by a [Code of Conduct]
 
 ### Reporting Bugs
 
-This section guides you through submitting a bug report. Following these guidelines helps maintainers and the community understand your report 📝, reproduce the behavior 💻 , and find related reports 🔎
+This section guides you through submitting a bug report. Following these guidelines helps maintainers and the community understand your report 📝 reproduce the behavior 💻 and find related reports 🔎
 
 Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/blob/main/.github/ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
 
