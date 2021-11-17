@@ -5,7 +5,7 @@ module.exports = {
 		const linkEmbed = new Discord.MessageEmbed()
 			.setColor('#2e97c2')
 			.setTitle('Community Classroom Discord bot')
-			.setURL('https://github.com/kaiwalyakoparkar/classroom-monitor-bot')
+			.setURL('https://github.com/commclassroom/classroom-monitor-bot')
 			.setAuthor(
 				'Classroon monitor',
 				'https://i.imgur.com/yMCOBLH.png',
@@ -17,7 +17,7 @@ module.exports = {
 			.addFields(
 				{
 				name: 'Github',
-				value: 'https://github.com/kaiwalyakoparkar/classroom-monitor-bot',
+				value: 'https://github.com/commclassroom/classroom-monitor-bot',
 			}
 			)
 			.setTimestamp()

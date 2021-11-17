@@ -4,7 +4,7 @@ module.exports = async function (client) {
         activity: {
             name: 'cm!help',
             type: 'LISTENING',
-            url: 'https://github.com/kaiwalyakoparkar/classroom-monitor-bot.',
+            url: 'https://github.com/commclassroom/classroom-monitor-bot.',
         },
     });
 }

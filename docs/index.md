@@ -19,7 +19,7 @@
     <img width="30px" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" />
   </a>&ensp;
   <a href="https://discord.gg/commclassroom">
-    <img width="30px" src="https://raw.githubusercontent.com/kaiwalyakoparkar/classroom-monitor-bot/main/docs/images/discord_logo.svg" />
+    <img width="30px" src="https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/docs/images/discord_logo.svg" />
   </a>&ensp;
   <a href="https://t.me/commclassroom">
     <img width="30px" src="https://www.vectorlogo.zone/logos/telegram/telegram-icon.svg" />
@@ -33,7 +33,7 @@ We believe that every student, irrespective of their college or branch, can make
 ## Note to all contributors
 
 Thank you for putting your time to contribute and helping others out!\
-Before contributing do kindly read and follow [Code of Conduct](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/blob/main/CODE_OF_CONDUCT.md).
+Before contributing do kindly read and follow [Code of Conduct](https://github.com/commclassroom/classroom-monitor-bot/blob/main/CODE_OF_CONDUCT.md).
 
 To get started with contributing, go through the following steps.
 

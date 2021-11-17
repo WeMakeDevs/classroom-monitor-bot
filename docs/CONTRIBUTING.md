@@ -6,7 +6,7 @@ The following is a set of guidelines for contributing to this project. These are
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by a [Code of Conduct](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [kaiwalyakoparkar@gmail.com](mailto:kaiwalyakoparkar@gmail.com) or to any of our community managers [in our Discord community](https://discord.gg/commclassroom).
+This project and everyone participating in it is governed by a [Code of Conduct](https://github.com/commclassroom/classroom-monitor-bot/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [kaiwalyakoparkar@gmail.com](mailto:kaiwalyakoparkar@gmail.com) or to any of our community managers [in our Discord community](https://discord.gg/commclassroom).
 
 ## How Can I Contribute?
 
@@ -14,17 +14,17 @@ This project and everyone participating in it is governed by a [Code of Conduct]
 
 This section guides you through submitting a bug report. Following these guidelines helps maintainers and the community understand your report 📝 reproduce the behavior 💻 and find related reports 🔎
 
-Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/blob/main/.github/ISSUE_TEMPLATE/bug_report.yml). The information we ask for helps us resolve issues faster.
+Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/commclassroom/classroom-monitor-bot/blob/main/.github/ISSUE_TEMPLATE/bug_report.yml). The information we ask for helps us resolve issues faster.
 
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of the new one.
 
 #### Before Submitting A Bug Report
 
-- **Perform a [cursory search](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/issues)** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
+- **Perform a [cursory search](https://github.com/commclassroom/classroom-monitor-bot/issues)** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
 
 #### How Do I Submit A (Good) Bug Report?
 
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). Create an issue on this repository and provide the following information by filling in [the template](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/blob/main/.github/ISSUE_TEMPLATE/bug_report.yml).
+Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). Create an issue on this repository and provide the following information by filling in [the template](https://github.com/commclassroom/classroom-monitor-bot/blob/main/.github/ISSUE_TEMPLATE/bug_report.yml).
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
@@ -39,11 +39,11 @@ Explain the problem and include additional details to help maintainers reproduce
 
 This section guides you through submitting an enhancement suggestion, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion 📝 and find related suggestions 🔎
 
-Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in [the template](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/blob/main/.github/ISSUE_TEMPLATE/feature_request.yml), including the steps that you imagine you would take if the feature you're requesting existed.
+Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in [the template](https://github.com/commclassroom/classroom-monitor-bot/blob/main/.github/ISSUE_TEMPLATE/feature_request.yml), including the steps that you imagine you would take if the feature you're requesting existed.
 
 #### Before Submitting An Enhancement Suggestion
 
-- **Perform a [cursory search](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/issues)** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+- **Perform a [cursory search](https://github.com/commclassroom/classroom-monitor-bot/issues)** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 
 #### How Do I Submit A (Good) Enhancement Suggestion?
 
@@ -60,8 +60,8 @@ Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com
 
 Unsure where to begin contributing to Atom? You can start by looking through these `beginner` and `help-wanted` issues:
 
-- [Beginner issues](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) - issues which should only require a few lines of code, and a test or two.
-- [Help wanted issues](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) - issues which should be a bit more involved than `beginner` issues.
+- [Beginner issues](https://github.com/commclassroom/classroom-monitor-bot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) - issues which should only require a few lines of code, and a test or two.
+- [Help wanted issues](https://github.com/commclassroom/classroom-monitor-bot/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) - issues which should be a bit more involved than `beginner` issues.
 
 ### Pull Requests
 
@@ -72,7 +72,7 @@ The process described here has several goals:
 - Engage the community in working toward the best possible!
 - Enable a sustainable system for maintainers to review contributions
 
-Please follow all instructions in [the template](https://github.com/kaiwalyakoparkar/classroom-monitor-bot/blob/main/.github/pull_request_template.md)
+Please follow all instructions in [the template](https://github.com/commclassroom/classroom-monitor-bot/blob/main/.github/pull_request_template.md)
 
 ## Prerequisites
 
@@ -99,13 +99,13 @@ Please follow all instructions in [the template](https://github.com/kaiwalyakopa
 ### Forking repository
 
 1. Firstly to make your own copy of the project you have to fork the repository. To fork the repository, press the fork button. In case of any difficulties, refer to the image below
-    ![fork](https://raw.githubusercontent.com/kaiwalyakoparkar/classroom-monitor-bot/main/doc/images/Fork.jpg)
+    ![fork](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/Fork.jpg)
 
 ### Clone repository
 
 1. Now after you have forked the project, it's time to clone it into your local device so that you can work properly.
 2. In your forked repository click on the green code button and copy the provided link. In case of any difficulties, refer to the image below
-    ![clone](https://raw.githubusercontent.com/kaiwalyakoparkar/classroom-monitor-bot/main/doc/images/Clone.jpg)
+    ![clone](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/Clone.jpg)
 
 3. Now in your desktop open Git Bash and type `git clone <your-clone-url>.git`, and press enter
 4. Now, your forked repository has been cloned in your device! 🎉
@@ -126,20 +126,20 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 
 1. Go to the [Discord Developers Portal](https://discord.com/developers/applications/) page
 2. Login with your Discord credentials. You will see the following screen (image below and for you it will probably be a blank one)
-    ![homepage](https://raw.githubusercontent.com/kaiwalyakoparkar/classroom-monitor-bot/main/doc/images/HomePage.jpg)
+    ![homepage](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/HomePage.jpg)
 3. Now click the `New Application` button (refer to the image above)
 4. Name your bot (it can be `Community Classroom bot` or anything else) and press `create`
 5. You will be at the Developers Portal where you can customize your bot (refer to the image below)
-    ![dashboard](https://raw.githubusercontent.com/kaiwalyakoparkar/classroom-monitor-bot/main/doc/images/Dashboard.jpg)
+    ![dashboard](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/Dashboard.jpg)
 6. Now to create your bot instance go to `Bot` tab, and press `Add Bot` followed by `Yes, do it` in the following popup (refer to the image below)
-    ![bot instance](https://raw.githubusercontent.com/kaiwalyakoparkar/classroom-monitor-bot/main/doc/images/BotInstance.jpg)
+    ![bot instance](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/BotInstance.jpg)
 7. You will be redirected to something similar to this screen
-    ![after adding bot](https://raw.githubusercontent.com/kaiwalyakoparkar/classroom-monitor-bot/main/doc/images/After_adding_bot.jpg)
+    ![after adding bot](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/After_adding_bot.jpg)
 8. Go to `OAuth2` and copy the Client ID (refer to the image below)
-    ![App ID](https://raw.githubusercontent.com/kaiwalyakoparkar/classroom-monitor-bot/main/doc/images/app_id.jpg)
+    ![App ID](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/app_id.jpg)
 9. Now to invite the bot to your server, paste this link in your browser `https://discord.com/api/oauth2/authorize?client_id=<app-id>&permissions=8&scope=bot` and just replace `<app-id>` with your copied client ID
 10. You will be redirected to this screen (image below) where you have to select a server and click on `continue` and `authorize` after that
-    ![Add server](https://raw.githubusercontent.com/kaiwalyakoparkar/classroom-monitor-bot/main/doc/images/add_server.jpg)
+    ![Add server](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/add_server.jpg)
 
 ##### Amazing! You have added the bot to your server; although you might see it's offline. Let's make it go online!
 
@@ -147,7 +147,7 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 
 1. Open the folder of your cloned repository with any text editor of your choice (VSCode recommended)
 2. Now go to the [Discord Developers Portal](https://discord.com/developers/) page where you created the bot and copy the bot token from `Bot` tab(refer to image below)
-    ![Bot Token](https://raw.githubusercontent.com/kaiwalyakoparkar/classroom-monitor-bot/main/doc/images/BotToken.jpg)
+    ![Bot Token](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/BotToken.jpg)
 3. Now create file named`.env` in your root folder. Copy everything from the `.env-sample` file and replace the `BOT-TOKEN` value with the copied token. Note that the `.env` file should be nameless. Create a nameless file, with the extension `.env`. If you add a name to the file, NPM won't be able to access the token.
 4. In the terminal run, `npm install`, this will install all the necessary packages
 5. Start our server by running `npm start`.
