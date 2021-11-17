@@ -8,4 +8,4 @@ cm!meme
 ```
 
 ### Response
-![](https://kaiwalyakoparkar.github.io/classroom-monitor-bot/images/meme.png)
+![](https://commclassroom.github.io/classroom-monitor-bot/images/meme.png)

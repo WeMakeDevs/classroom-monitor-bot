@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaiwalyakoparkar/classroom-monitor-bot.git"
+    "url": "git+https://github.com/commclassroom/classroom-monitor-bot.git"
   },
   "keywords": [
     "node",
@@ -19,12 +19,12 @@
     "free-edu",
     "cs"
   ],
-  "author": "Kaiwalya Koparkar",
+  "author": "Community Classroom",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kaiwalyakoparkar/classroom-monitor-bot/issues"
+    "url": "https://github.com/commclassroom/classroom-monitor-bot/issues"
   },
-  "homepage": "https://github.com/kaiwalyakoparkar/classroom-monitor-bot#readme",
+  "homepage": "https://github.com/commclassroom/classroom-monitor-bot#readme",
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",

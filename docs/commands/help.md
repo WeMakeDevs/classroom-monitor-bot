@@ -8,4 +8,4 @@ cm!help
 ```
 
 ### Response
-![](https://kaiwalyakoparkar.github.io/classroom-monitor-bot/images/help.png)
+![](https://commclassroom.github.io/classroom-monitor-bot/images/help.png)
