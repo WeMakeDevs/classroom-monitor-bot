@@ -3,8 +3,8 @@
 <h1 align="center"> Classroom Monitor Bot </h1>
 <p>
 <p align="center">
-  <b>This bot provides functionalities for 'Community Classroom' discord server.</b> <br><br>
-  <b>Community Classroom is an initiative 'for the students, by a student'. The initiative aims to provide 'quality education which is free for all'.</b> <br><br>
+  <b>This bot provides functionalities for the Community Classroom Discord server.</b> <br><br>
+  <b>Community Classroom is an initiative 'for the students, by the students'. The initiative aims to provide 'quality education which is free for all'.</b> <br><br>
   <b>Follow us and be a part of this amazing community.</b> <br><br>
   <a href="https://www.youtube.com/c/KunalKushwaha">
     <img width="30px" src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg" />
