@@ -1,10 +1,10 @@
 -  Commands
-    - [cm!help](/commands/help)
-    - [cm!hey](/commands/hey)
-    - [cm!version](/commands/version)
-    - [cm!links](/commands/links)
-    - [cm!translate &#60;text&#62;](/commands/translate)
-    - [cm!meme](/commands/meme)
+    - [cm!help](/commands/help.md)
+    - [cm!hey](/commands/hey.md)
+    - [cm!version](/commands/version.md)
+    - [cm!links](/commands/links.md)
+    - [cm!translate &#60;text&#62;](/commands/translate.md)
+    - [cm!meme](/commands/meme.md)
 
 - [Community](/community)
 - [Contributing](/CONTRIBUTING)
