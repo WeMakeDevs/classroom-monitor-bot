@@ -44,6 +44,8 @@ const words = [
 let csgo_scam = 'hello! i leave from cs:go and give all my inventory, the first three who send a trade';
 let discord_scam1 = 'Yo, friend gave me a referral link to get Discord nitro for free';
 let discord_scam2 = "Discord Nitro for Free - Steam Store";
+let discord_scam3 = "3 months of Discord Nitro free from STEAM";
+let discord_scam4 = "Free 3 months Discord Nitro";
 
 module.exports = (client, callback) => {
     client.on('message', message => {
@@ -62,9 +64,9 @@ module.exports = (client, callback) => {
             return;
         }
 
-        else if (message.content.toLowerCase().substring(0,86) === csgo_scam || message.content.toLowerCase().substring(0,65) === discord_scam1 || message.content.toLowerCase().substring(0,37) === discord_scam2) {
+        else if (message.content.toLowerCase().substring(0,86) === csgo_scam || message.content.toLowerCase().substring(0,65) === discord_scam1
+                 || message.content.toLowerCase().substring(0,37) === discord_scam2 || message.content.toLowerCase().substring(0,42) === discord_scam3 || message.content.toLowerCase().substring(0,28) === discord_scam4) {
             message.delete();
         }
     });
 };
-
