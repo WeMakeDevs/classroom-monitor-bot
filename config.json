@@ -36,7 +36,11 @@
             "hard",
             "harder",
             "bomb",
-            "asian"
+            "asian",
+            "white list",
+            "whitelist",
+            "color",
+            "period"
         ]
     }
 }
