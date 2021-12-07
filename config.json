@@ -40,7 +40,11 @@
             "white list",
             "whitelist",
             "color",
-            "period"
+            "period",
+            "hang",
+            "lies",
+            "obvious",
+            "special"
         ]
     }
 }
