@@ -13,7 +13,7 @@ module.exports = {
                 let res = await translate(sentanceToTranslate, null, 'en', true)
                 
                 if (res.translation.toLowerCase() == sentanceToTranslate) 
-                    message.channel.send("The text is either already in English or I can't understand what language it is\nNote: I can't Understand languages such as Hindi or Japanese in Latin Alphabet.")
+                    
                 else 
                     message.channel.send(res.translation)
             } catch (err) {
