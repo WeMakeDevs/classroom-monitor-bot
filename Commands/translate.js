@@ -11,11 +11,10 @@ module.exports = {
             let sentanceToTranslate = args.join(' ') // args will be words in an array so we will join them to make a sentance
             try {
                 let res = await translate(sentanceToTranslate, null, 'en', true)
-                
-                if (res.translation.toLowerCase() == sentanceToTranslate) 
-                    
-                else 
+
+                if (!(res.translation.toLowerCase() == sentanceToTranslate)) {
                     message.channel.send(res.translation)
+                }
             } catch (err) {
                 message.channel.send("Sorry I had an error ;(")
                 console.error(err)
