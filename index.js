@@ -11,9 +11,10 @@ client.commands = new Discord.Collection();
 
 const presence = require('./src/Commands/presence');
 const restrict = require('./src/Commands/restrictedWords');
+const { botLogHandler } = require('./src/utils/botLogHandler');
 
 // Up commands
-
+botLogHandler.log('debug', 'setting commands');
 const commandFiles = fs
 	.readdirSync('./src/Commands/')
 	.filter((file) => file.endsWith('.js'));
@@ -22,7 +23,7 @@ for (const file of commandFiles) {
 
 	client.commands.set(command.name, command);
 }
-
+botLogHandler.log('debug', 'starting bot');
 client.on('ready', () => {
 	console.log(
 		`Classroom Monitor is currently running on version v${
@@ -58,5 +59,5 @@ client.on('message', (message) => {
 });
 
 // Authentications
-
+botLogHandler.log('debug', 'Validating environment variables');
 client.login(process.env.BOT_TOKEN);

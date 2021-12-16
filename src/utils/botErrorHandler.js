@@ -1,25 +1,18 @@
-const { createLogger, format, transports, config } = require('winston');
-
-const { combine, timestamp, colorize, printf } = format;
+const { botLogHandler } = require('../utils/botLogHandler');
 
 /**
- * Standard log handler, using winston to wrap and format
- * messages. Call with `logHandler.log(level, message)`.
- *
- * @param {string} level - The log level to use.
- * @param {string} message - The message to log.
+ * Takes the error object generated within the code and logs the
+ * information in the console.
+ * @param  context The string explaining where this error was thrown.
+ * @param  err The standard error object (generated in a catch statement).
  */
-const botErrorHandler = createLogger({
-	levels: config.npm.levels,
-	level: 'silly',
-	transports: [new transports.Console()],
-	format: combine(
-		timestamp({
-			format: 'YYYY-MM-DD HH:mm:ss',
-		}),
-		colorize(),
-		printf((info) => `${info.level}: ${[info.timestamp]}: ${info.message}`)
-	),
-	exitOnError: false,
-});
+
+const botErrorHandler = async (context, err) => {
+	const error = err;
+	botLogHandler.log('error', `There was an error in the ${context}:`);
+	botLogHandler.log(
+		'error',
+		JSON.stringify({ errorMessage: err.message, errorStack: err.stack })
+	);
+};
 module.exports = { botErrorHandler };
