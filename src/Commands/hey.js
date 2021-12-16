@@ -1,3 +1,4 @@
+const { botLogHandler } = require('../utils/botLogHandler');
 module.exports = {
 	name: 'hey',
 	description: 'sends a hey message',
@@ -5,5 +6,6 @@ module.exports = {
 		message.channel.send(
 			'Hey 👋, Nice to meet you! Call me `cm!help` if you need any kind of help 😊'
 		);
+		botLogHandler.log('info', 'commands ok');
 	},
 };

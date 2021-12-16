@@ -1,6 +1,7 @@
-import { createLogger, format, transports, config } from 'winston';
+const { createLogger, format, transports, config } = require('winston');
 
 const { combine, timestamp, colorize, printf } = format;
+
 /**
  * Standard log handler, using winston to wrap and format
  * messages. Call with `logHandler.log(level, message)`.
@@ -8,9 +9,9 @@ const { combine, timestamp, colorize, printf } = format;
  * @param {string} level - The log level to use.
  * @param {string} message - The message to log.
  */
-export const monitorLogHandler = createLogger({
+const botErrorHandler = createLogger({
 	levels: config.npm.levels,
-	level: 'info',
+	level: 'silly',
 	transports: [new transports.Console()],
 	format: combine(
 		timestamp({
@@ -21,3 +22,4 @@ export const monitorLogHandler = createLogger({
 	),
 	exitOnError: false,
 });
+module.exports = { botErrorHandler };
