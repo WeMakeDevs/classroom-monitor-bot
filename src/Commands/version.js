@@ -4,7 +4,7 @@ module.exports = {
 	execute(message, args, Discord) {
 		message.reply(
 			` your monitor is running on version v${
-				require('../package.json').version
+				require('../../package.json').version
 			}`
 		);
 	},
