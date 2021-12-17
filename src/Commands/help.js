@@ -28,5 +28,5 @@ try {
 		},
 	};
 } catch (error) {
-	botErrorHandler('help command', error);
+	botErrorHandler('Help command', error);
 }

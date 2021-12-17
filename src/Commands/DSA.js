@@ -3,7 +3,7 @@ const { botErrorHandler } = require('../utils/botErrorHandler');
 try {
 	module.exports = {
 		name: 'dsa',
-		description: 'sends the link for the dsa course',
+		description: 'Sends the link for the DSA course',
 		execute(message, args, Discord) {
 			const linkEmbed = new Discord.MessageEmbed()
 				.setColor('#2e97c2')
@@ -26,7 +26,7 @@ try {
 						value: 'https://github.com/kunal-kushwaha/DSA-Bootcamp-Java',
 					},
 					{
-						name: 'Try hands on git',
+						name: 'Try hands on Git',
 						value: 'https://github.com/kunal-kushwaha/commclassroomOP',
 					}
 				)
@@ -39,5 +39,5 @@ try {
 		},
 	};
 } catch (error) {
-	botErrorHandler('Dsa module', error);
+	botErrorHandler('DSA module', error);
 }

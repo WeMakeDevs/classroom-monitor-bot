@@ -29,12 +29,12 @@ try {
 						value: 'https://www.instagram.com/commclassroom/',
 					},
 					{
-						name: 'Youtube',
+						name: 'YouTube',
 						value: 'https://www.youtube.com/c/KunalKushwaha/',
 					},
 					{
 						name: 'Discord Invite',
-						value: 'https://discord.gg/K9kxUXvfND',
+						value: 'https://discord.gg/commclsassroom',
 					},
 					{
 						name: 'Telegram Invite',

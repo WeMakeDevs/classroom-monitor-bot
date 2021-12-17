@@ -14,10 +14,10 @@ try {
 					'https://discord.js.org'
 				)
 				.setDescription(
-					'Open source discord bot made for ✨Community Classroom✨'
+					'Open Source Discord bot made by and for ✨Community Classroom✨'
 				)
 				.addFields({
-					name: 'Github',
+					name: 'GitHub',
 					value: 'https://github.com/commclassroom/classroom-monitor-bot',
 				})
 				.setTimestamp()
@@ -29,5 +29,5 @@ try {
 		},
 	};
 } catch (error) {
-	botErrorHandler('source command', error);
+	botErrorHandler('Source command', error);
 }
