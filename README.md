@@ -70,7 +70,7 @@ To get started with contributing, go through the following steps.
 2. In your forked repository click on the green code button and copy the provided link. In case of any difficulties, refer to the image below
     ![clone](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/Clone.jpg)
 
-3. Now in your desktop open Git Bash and type `git clone <your-clone-url>.git`, and press enter
+3. Now on your desktop open Git Bash and type `git clone <your-clone-url>.git`, and press enter
 4. Now, your forked repository has been cloned in your device! 🎉
 
 ## Contributing
@@ -109,9 +109,9 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 ### Coding our Bot
 
 1. Open the folder of your cloned repository with any text editor of your choice (VSCode recommended)
-2. Now go to the [Discord Developers Portal](https://discord.com/developers/) page where you created the bot and copy the bot token from `Bot` tab(refer to image below)
+2. Now go to the [Discord Developers Portal](https://discord.com/developers/) page where you created the bot and copy the bot token from `Bot` tab(refer to the image below)
     ![Bot Token](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/BotToken.jpg)
-3. Now create file named`.env` in your root folder. Copy everything from the `.env-sample` file and replace the `BOT-TOKEN` value with the copied token. Note that the `.env` file should be nameless. Create a nameless file, with the extension `.env`. If you add a name to the file, NPM won't be able to access the token.
+3. Now create a file named`.env` in your root folder. Copy everything from the `.env-sample` file and replace the `BOT-TOKEN` value with the copied token. Note that the `.env` file should be nameless. Create a nameless file, with the extension `.env`. If you add a name to the file, NPM won't be able to access the token.
 4. In the terminal run, `npm install`, this will install all the necessary packages
 5. Start our server by running `npm start`.
 6. All done! The bot is now online!
@@ -175,7 +175,7 @@ Must be one of the following:
 
 * `feat`     Commits that adds a new feature
 * `fix`      Commits that fixes a bug
-* `refactor` Commits that rewrite/restructure your code, however does not change any behaviour
+* `refactor` Commits that rewrite/restructure your code, however, does not change any behaviour
 * `perf`     Commits that are special `refactor` commits that improve performance
 * `style`    Commits that do not affect the meaning (white-space, formatting, missing semi-colons, etc.)
 * `test`     Commits that add missing tests or correct existing tests
@@ -239,7 +239,7 @@ To find suitable/appropriate emojis for the changes, refer to [this](https://gis
 
 Not sure what to type in the summary? Refer to [this](#summary)
 
-#### Some of the tips to write good commit message
+#### Some of the tips to write a good commit message
 
 - Separate the subject from the body with a blank line
 - Your commit message should not contain any whitespace errors
