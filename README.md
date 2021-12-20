@@ -61,7 +61,7 @@ To get started with contributing, go through the following steps.
 
 ### Forking repository
 
-1. Firstly to make your own copy of the project you have to fork the repository. To fork the repository, press the fork button. In case of any difficulties, refer to the image below
+1. Firstly to make your copy of the project you have to fork the repository. To fork the repository, press the fork button. In case of any difficulties, refer to the image below
     ![fork](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/Fork.jpg)
 
 ### Clone repository
@@ -70,7 +70,7 @@ To get started with contributing, go through the following steps.
 2. In your forked repository click on the green code button and copy the provided link. In case of any difficulties, refer to the image below
     ![clone](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/Clone.jpg)
 
-3. Now in your desktop open Git Bash and type `git clone <your-clone-url>.git`, and press enter
+3. Now on your desktop open Git Bash and type `git clone <your-clone-url>.git`, and press enter
 4. Now, your forked repository has been cloned in your device! 🎉
 
 ## Contributing
@@ -85,16 +85,16 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 1. `git checkout -b <your-branch-name>` will make a separate branch and will change to that branch
 2. Now you are ready to make your changes.
 
-### Setting up application and creating bot
+### Setting up application and creating the bot
 
 1. Go to the [Discord Developers Portal](https://discord.com/developers/applications/) page
-2. Login with your Discord credentials. You will see the following screen (image below and for you it will probably be a blank one)
+2. Login with your Discord credentials. You will see the following screen (image below and for you, it will probably be a blank one)
     ![homepage](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/HomePage.jpg)
 3. Now click the `New Application` button (refer to the image above)
 4. Name your bot (it can be `Community Classroom bot` or anything else) and press `create`
 5. You will be at the Developers Portal where you can customize your bot (refer to the image below)
     ![dashboard](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/Dashboard.jpg)
-6. Now to create your bot instance go to `Bot` tab, and press `Add Bot` followed by `Yes, do it` in the following popup (refer to the image below)
+6. Now to create your bot instance go to the `Bot` tab, and press `Add Bot` followed by `Yes, do it` in the following popup (refer to the image below)
     ![bot instance](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/BotInstance.jpg)
 7. You will be redirected to something similar to this screen
     ![after adding bot](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/After_adding_bot.jpg)
@@ -109,9 +109,9 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 ### Coding our Bot
 
 1. Open the folder of your cloned repository with any text editor of your choice (VSCode recommended)
-2. Now go to the [Discord Developers Portal](https://discord.com/developers/) page where you created the bot and copy the bot token from `Bot` tab(refer to image below)
+2. Now go to the [Discord Developers Portal](https://discord.com/developers/) page where you created the bot and copy the bot token from the `Bot` tab (refer to the image below)
     ![Bot Token](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/BotToken.jpg)
-3. Now create file named`.env` in your root folder. Copy everything from the `.env-sample` file and replace the `BOT-TOKEN` value with the copied token. Note that the `.env` file should be nameless. Create a nameless file, with the extension `.env`. If you add a name to the file, NPM won't be able to access the token.
+3. Now create a file named`.env` in your root folder. Copy everything from the `.env-sample` file and replace the `BOT-TOKEN` value with the copied token. Note that the `.env` file should be nameless. Create a nameless file, with the extension `.env`. If you add a name to the file, NPM won't be able to access the token.
 4. In the terminal run, `npm install`, this will install all the necessary packages
 5. Start our server by running `npm start`.
 6. All done! The bot is now online!
@@ -122,7 +122,7 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `cm!help` | Shows help with the commands, features, and what the bot offers |
 | `cm!hey` | Says `Hey` to the user |
-| `cm!version` | Dislays the current running version of the bot                  |
+| `cm!version` | Displays the current version of the bot                  |
 | `cm!links` | Displays all the social accounts of the community |
 | `cm!translate <text>` | Translate the given text to English                            |
 | `cm!meme`                  | Send a meme from the [r/programmerhumor](https://www.reddit.com/r/ProgrammerHumor/) Reddit
@@ -156,7 +156,7 @@ Any line of the commit message cannot be longer than 100 characters.
 ```markdown
 <type>(<scope>): <short summary>
   │       │             │
-  │       │             └─⫸ Summary in present tense. Not capitalized. No period at the end.
+  │       │             └─⫸ Summary in the present tense. Not capitalized. No period in the end.
   │       │
   │       └─⫸ Commit Scope: animations|bazel|benchpress|common|compiler|compiler-cli|core|
   │                          elements|forms|http|language-service|localize|platform-browser|
@@ -175,7 +175,7 @@ Must be one of the following:
 
 * `feat`     Commits that adds a new feature
 * `fix`      Commits that fixes a bug
-* `refactor` Commits that rewrite/restructure your code, however does not change any behaviour
+* `refactor` Commits that rewrite/restructure your code, however, does not change any behavior
 * `perf`     Commits that are special `refactor` commits that improve performance
 * `style`    Commits that do not affect the meaning (white-space, formatting, missing semi-colons, etc.)
 * `test`     Commits that add missing tests or correct existing tests
@@ -212,7 +212,7 @@ Use the summary field to provide a succinct description of the change:
 
 #### Commit Message Footer
 
-The `footer` can contain information about breaking changes and is also the place to reference GitHub issues, and other PRs that this commit closes or is related to.
+The `footer` can contain information about breaking changes and is also the place to reference GitHub issues and other PRs that this commit closes or is related to.
 
 ```markdown
 BREAKING CHANGE: <breaking change summary>
@@ -239,7 +239,7 @@ To find suitable/appropriate emojis for the changes, refer to [this](https://gis
 
 Not sure what to type in the summary? Refer to [this](#summary)
 
-#### Some of the tips to write good commit message
+#### Some of the tips to write a good commit message
 
 - Separate the subject from the body with a blank line
 - Your commit message should not contain any whitespace errors
