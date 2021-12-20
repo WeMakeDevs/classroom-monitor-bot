@@ -39,11 +39,6 @@ try {
 					{
 						name: 'Telegram Invite',
 						value: 'https://t.me/commclassroom',
-					},
-					{
-						name: 'Become University Leader',
-						value:
-							'https://docs.google.com/forms/d/e/1FAIpQLSdoqRVp9t8-J8i87-T2Nv9XSfSViyf750VJXtxHRYkv7FTNEA/viewform',
 					}
 				)
 				.setTimestamp()

@@ -20,5 +20,5 @@ try {
 		});
 	};
 } catch (error) {
-	botErrorHandler('commands module', error);
+	botErrorHandler('Commands module', error);
 }
