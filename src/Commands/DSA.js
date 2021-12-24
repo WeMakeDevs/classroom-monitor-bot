@@ -10,11 +10,10 @@ try {
 				.setTitle('Community Classroom DSA course details')
 				.setURL('https://github.com/commclassroom/classroom-monitor-bot')
 				.setAuthor(
-<<<<<<< HEAD
 					'Classroon Monitor',
-=======
+
 					'Classroom Monitor',
->>>>>>> 291166d1ffd5a023d12a73d1868b7227364aa00d
+
 					'https://i.imgur.com/yMCOBLH.png',
 					'https://discord.js.org'
 				)
