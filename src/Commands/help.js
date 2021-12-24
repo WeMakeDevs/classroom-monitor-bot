@@ -3,14 +3,14 @@ const { botErrorHandler } = require('../utils/botErrorHandler');
 try {
 	module.exports = {
 		name: 'help',
-		description: 'sends the help command',
+		description: 'Sends a list of valid commands (a.k.a. help command)',
 		execute(message, args, Discord) {
 			const helpEmbed = new Discord.MessageEmbed()
 				.setColor('#2e97c2')
 				.setTitle('Community monitor for help')
 				.setURL('https://github.com/commclassroom/classroom-monitor-bot')
 				.setAuthor(
-					'Classroon monitor',
+					'Classroon Monitor',
 					'https://i.imgur.com/yMCOBLH.png',
 					'https://discord.js.org'
 				)

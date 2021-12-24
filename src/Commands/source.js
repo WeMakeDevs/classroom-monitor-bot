@@ -2,14 +2,15 @@ const { botErrorHandler } = require('../utils/botErrorHandler');
 try {
 	module.exports = {
 		name: 'source',
-		description: 'sends the source code of the bot',
+		description: `Sends a link to the bot's source code`,
+
 		execute(message, args, Discord) {
 			const linkEmbed = new Discord.MessageEmbed()
 				.setColor('#2e97c2')
 				.setTitle('Community Classroom Discord bot')
 				.setURL('https://github.com/commclassroom/classroom-monitor-bot')
 				.setAuthor(
-					'Classroon monitor',
+					'Classroon Monitor',
 					'https://i.imgur.com/yMCOBLH.png',
 					'https://discord.js.org'
 				)

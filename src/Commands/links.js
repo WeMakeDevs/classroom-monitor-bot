@@ -3,14 +3,14 @@ const { botErrorHandler } = require('../utils/botErrorHandler');
 try {
 	module.exports = {
 		name: 'links',
-		description: 'sends the link relevant to comm classroom',
+		description: `Sends all Community Classroom's socials`,
 		execute(message, args, Discord) {
 			const linkEmbed = new Discord.MessageEmbed()
 				.setColor('#2e97c2')
 				.setTitle('Community Classroom Social accounts')
 				.setURL('https://github.com/commclassroom/classroom-monitor-bot')
 				.setAuthor(
-					'Classroon monitor',
+					'Classroon Monitor',
 					'https://i.imgur.com/yMCOBLH.png',
 					'https://discord.js.org'
 				)
