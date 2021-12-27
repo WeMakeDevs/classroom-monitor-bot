@@ -1,5 +1,4 @@
 const { botErrorHandler } = require('../utils/botErrorHandler');
-
 try {
 	module.exports = {
 		name: 'dsa',
