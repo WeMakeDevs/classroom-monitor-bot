@@ -19,12 +19,14 @@ const { loadCommands } = require('./src/utils/loadCommands');
 (async () => {
 	botLogHandler.log('debug', 'setting commands');
 	const loadedAndFixedCommands = await loadCommands();
-	if (!loadedAndFixedCommands) {
-		botLogHandler.log('error', 'unable to load Commands');
+
+	for (const file of loadedAndFixedCommands) {
+		const command = require(`./src/Commands/${file}`);
+
+		client.commands.set(command.name, command);
 	}
 	botLogHandler.log('debug', 'loaded Commands successfully');
-	// console.log(loadedAndFixedCommands);
-	//TODO: fix this temporary patch , remove command,presence,restricted words from command dir
+
 	botLogHandler.log('debug', 'starting bot');
 	client.on('ready', () => {
 		console.log(
@@ -52,7 +54,6 @@ const { loadCommands } = require('./src/utils/loadCommands');
 		const command = args.shift().toLowerCase();
 
 		try {
-			console.log(client.commands.get(command));
 			client.commands.get(command).execute(message, args, Discord);
 		} catch {
 			message.channel.send(

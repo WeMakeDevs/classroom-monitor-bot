@@ -1,19 +1,16 @@
 const fs = require('fs');
 
-const Discord = require('discord.js');
-const client = new Discord.Client();
-client.commands = new Discord.Collection();
-
 const { botErrorHandler } = require('./botErrorHandler');
 
 const loadCommands = async () => {
 	try {
+		//FIXME: this was supposed to set commands globally here only but if i do client.commands.set here it goes undefined if i try to get it in index.js currently this is returning the command array
 		const loadedCommands = fs
 			.readdirSync('./src/Commands')
 			.filter((file) => file.endsWith('.js'));
 
 		//removing unnecessary commands
-		//TODO: TO MOVE THESE COMMANDS SOMEWHRE ELSE
+		//TODO: fix this temporary patch , remove command,presence,restricted words from command dir
 		// for (let i = 0; i < loadedCommands.length; i++) {
 		// 	if (
 		// 		loadedCommands[i] == 'command.js' ||
@@ -24,12 +21,12 @@ const loadCommands = async () => {
 		// 	}
 		// }
 
-		for (const file of loadedCommands) {
-			const command = require(`../Commands/${file}`);
-			// console.log(command.name);
-			client.commands.set(command.name, command);
-		}
-		return true;
+		// for (const file of loadedCommands) {
+		// 	const command = require(`../Commands/${file}`);
+		// 	client.commands.set(command.name, command);
+		// }
+
+		return loadedCommands;
 	} catch (error) {
 		botErrorHandler('loadCommand util', error);
 		return false;
