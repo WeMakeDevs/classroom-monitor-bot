@@ -10,9 +10,6 @@ try {
 				.setURL('https://github.com/commclassroom/classroom-monitor-bot')
 				.setAuthor(
 					'Classroon Monitor',
-
-					'Classroom Monitor',
-
 					'https://i.imgur.com/yMCOBLH.png',
 					'https://discord.js.org'
 				)
