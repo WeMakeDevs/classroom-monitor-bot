@@ -11,19 +11,23 @@ require('dotenv').config();
 
 const presence = require('./src/Commands/presence');
 const restrict = require('./src/Commands/restrictedWords');
+const { IntentOptions } = require('./src/config/IntentOptions');
 const { botErrorHandler } = require('./src/utils/botErrorHandler');
 const { botLogHandler } = require('./src/utils/botLogHandler');
 const { loadCommands } = require('./src/utils/loadCommands');
 const { validateEnv } = require('./src/utils/validateEnv');
 
-//wrap up it in an iife fn
 (async () => {
 	const allEnvValidated = await validateEnv();
 	if (!allEnvValidated.valid) {
 		botLogHandler.log('error', allEnvValidated.message);
 		return;
 	}
-
+	//!! DEPRECATED - const client = new Discord.Client();
+	// INTENTOPTIONS ARE NECCESSARY TO FUNCTION
+	const Client = new Client({
+		intents: IntentOptions,
+	});
 	botLogHandler.log('debug', 'setting commands');
 	const loadedAndFixedCommands = await loadCommands();
 
