@@ -1,8 +1,7 @@
 //Importing important libraries
 
-const Discord = require('discord.js');
-const client = new Discord.Client();
-client.commands = new Discord.Collection();
+const { Client } = require('discord.js');
+const { Discord } = require('discord.js');
 const fs = require('fs');
 
 const { prefix } = require('./config.json');
@@ -25,9 +24,12 @@ const { validateEnv } = require('./src/utils/validateEnv');
 	}
 	//!! DEPRECATED - const client = new Discord.Client();
 	// INTENTOPTIONS ARE NECCESSARY TO FUNCTION
-	const Client = new Client({
+	const client = new Client({
 		intents: IntentOptions,
 	});
+	// DEPRECATED
+	//client.commands = new Discord.Collection();
+
 	botLogHandler.log('debug', 'setting commands');
 	const loadedAndFixedCommands = await loadCommands();
 
