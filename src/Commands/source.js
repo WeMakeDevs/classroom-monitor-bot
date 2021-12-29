@@ -10,7 +10,7 @@ try {
 				.setTitle('Community Classroom Discord bot')
 				.setURL('https://github.com/commclassroom/classroom-monitor-bot')
 				.setAuthor(
-					'Classroon Monitor',
+					'Classroom Monitor',
 					'https://i.imgur.com/yMCOBLH.png',
 					'https://discord.js.org'
 				)
@@ -23,7 +23,7 @@ try {
 				})
 				.setTimestamp()
 				.setFooter(
-					'Want help? Classroom monitor is just `cm!help` far',
+					'Want help? Classroom Monitor is just `cm!help` far',
 					'https://i.imgur.com/yMCOBLH.png'
 				);
 			message.channel.send(linkEmbed);
