@@ -8,12 +8,12 @@ const Hey = {
 
 	run: async (interaction) => {
 		try {
-			await interaction.editReply({
+			await interaction.reply({
 				content:
-					'Hey 👋, Nice to meet you! Call me `cm!help` if you need any kind of help 😊',
+					'Hey 👋, Nice to meet you! Call me `/help` if you need any kind of help 😊',
 			});
 		} catch (error) {
-			botErrorHandler.log('hey command', error);
+			botErrorHandler('hey command', error);
 		}
 	},
 };

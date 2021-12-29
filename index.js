@@ -19,6 +19,7 @@ const { onReady } = require('./src/events/onReady');
 		intents: IntentOptions,
 	});
 	client.on('ready', async () => await onReady(client));
+
 	client.on(
 		'interactionCreate',
 		async (interaction) => await onInteraction(interaction)

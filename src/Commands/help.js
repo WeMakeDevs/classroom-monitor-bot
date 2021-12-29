@@ -17,8 +17,8 @@ const Help = {
 			);
 			helpEmbed.setAuthor({
 				name: "'Classroon Monitor'",
-				url: "'https://discord.js.org'",
-				iconURL: "'https://i.imgur.com/yMCOBLH.png'",
+				url: 'https://discord.js.org/',
+				iconURL: 'https://i.imgur.com/yMCOBLH.png',
 			});
 			helpEmbed.addFields({
 				name: 'Current Supported Commands',
@@ -29,7 +29,7 @@ const Help = {
 			helpEmbed.setTimestamp();
 
 			helpEmbed.setFooter(
-				'Want help? Classroom monitor is just `cm!help` far',
+				'Want help? Classroom monitor is just `/help` far',
 				'https://i.imgur.com/yMCOBLH.png'
 			);
 

@@ -12,18 +12,7 @@ const onReady = async (client) => {
 		const commandData = [];
 
 		CommandList.forEach((command) => commandData.push(command.data.toJSON()));
-		//sample command data
-		// const commands = [
-		// 	new SlashCommandBuilder()
-		// 		.setName('ping')
-		// 		.setDescription('Replies with pong!'),
-		// 	new SlashCommandBuilder()
-		// 		.setName('server')
-		// 		.setDescription('Replies with server info!'),
-		// 	new SlashCommandBuilder()
-		// 		.setName('user')
-		// 		.setDescription('Replies with user info!'),
-		// ].map((command) => command.toJSON());
+		// sample command data
 
 		await rest
 			.put(
