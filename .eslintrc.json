@@ -14,5 +14,5 @@
       "prefer-const": "error",
       "eqeqeq": ["error", "always"],
       "curly": ["error"]
-    },
+    }
 }
