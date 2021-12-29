@@ -29,8 +29,8 @@ const DSA = {
 			/**@deprecated — Supply a lone object of interface EmbedAuthorData instead of more parameters.the signature '(name: string, iconURL?: string, url?: string): MessageEmbed' of 'linkEmbed.setAuthor' is deprecated.ts(6387) */
 			linkEmbed.setAuthor({
 				name: "'Classroon Monitor'",
-				url: "'https://discord.js.org'",
-				iconURL: "'https://i.imgur.com/yMCOBLH.png'",
+				url: 'https://discord.js.org/',
+				iconURL: 'https://i.imgur.com/yMCOBLH.png',
 			});
 
 			linkEmbed.setDescription('Quality Education. Free For All. Forever.');
@@ -51,7 +51,7 @@ const DSA = {
 			);
 			linkEmbed.setTimestamp();
 			linkEmbed.setFooter(
-				'Want help? Classroom monitor is just `cm!help` far',
+				'Want help? Classroom monitor is just `/help` far',
 				'https://i.imgur.com/yMCOBLH.png'
 			);
 
