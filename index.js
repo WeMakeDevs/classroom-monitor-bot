@@ -8,8 +8,13 @@ const { validateEnv } = require('./src/utils/validateEnv');
 const { onReady } = require('./src/events/onReady');
 const { onMessage } = require('./src/events/onMessage');
 
+/**
+ * The entry point for client's process. This will log the boot process,
+ * call the necessary helpers to prepare the bot, and then log in to Discord.
+ */
+
 (async () => {
-	botLogHandler.log('debug', 'Validating environment variables');
+	botLogHandler.log('info', 'Validating environment variables');
 	const allEnvValidated = await validateEnv();
 	if (!allEnvValidated.valid) {
 		botLogHandler.log('error', allEnvValidated.message);
@@ -19,6 +24,7 @@ const { onMessage } = require('./src/events/onMessage');
 	const client = new Client({
 		intents: IntentOptions,
 	});
+
 	client.on('ready', async () => await onReady(client));
 
 	client.on(
@@ -29,6 +35,6 @@ const { onMessage } = require('./src/events/onMessage');
 		await onMessage(message);
 	});
 
-	botLogHandler.log('debug', 'logging into discord');
+	botLogHandler.log('info', 'logging into discord');
 	await client.login(process.env.BOT_TOKEN);
 })();

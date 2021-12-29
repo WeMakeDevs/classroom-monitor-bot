@@ -3,8 +3,11 @@ const { Routes } = require('discord-api-types/v9');
 const { CommandList } = require('../Commands/_COMMANDS');
 const { botErrorHandler } = require('../utils/botErrorHandler');
 const { botLogHandler } = require('../utils/botLogHandler');
-const { SlashCommandBuilder } = require('@discordjs/builders');
 
+/**
+ * triggers when the onReady event fires , pushes the commands globally.
+ * @param  client bot's Client instance.
+ */
 const onReady = async (client) => {
 	try {
 		const rest = new REST({ version: '9' }).setToken(process.env.BOT_TOKEN);
@@ -12,7 +15,6 @@ const onReady = async (client) => {
 		const commandData = [];
 
 		CommandList.forEach((command) => commandData.push(command.data.toJSON()));
-		// sample command data
 
 		await rest
 			.put(

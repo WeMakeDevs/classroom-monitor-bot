@@ -7,6 +7,10 @@ const { Source } = require('./source');
 const { Translate } = require('./translate');
 const { Version } = require('./version');
 
+/**
+ * The list of all available commands.
+ * this is used to push tne commands globally.
+ * */
 const CommandList = [DSA, Help, Hey, Links, Meme, Source, Translate, Version];
 
 module.exports = { CommandList };
