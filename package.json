@@ -28,7 +28,6 @@
 	"devDependencies": {
 		"@commitlint/cli": "^13.1.0",
 		"@commitlint/config-conventional": "^13.1.0",
-		"@types/node": "^17.0.5",
 		"docsify-cli": "^4.4.3",
 		"eslint": "^7.31.0",
 		"eslint-config-prettier": "^8.3.0",
@@ -47,6 +46,7 @@
 	"dependencies": {
 		"@discordjs/builders": "^0.10.0",
 		"@discordjs/rest": "^0.2.0-canary.0",
+		"discord-api-types": "^0.26.0",
 		"alex": "^9.1.0",
 		"alexjs": "^1.0.0",
 		"bing-translate-api": "^2.2.0",

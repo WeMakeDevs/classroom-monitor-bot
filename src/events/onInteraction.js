@@ -1,5 +1,5 @@
-const { Interaction } = require('discord.js');
 const { botErrorHandler } = require('../utils/botErrorHandler');
+const { CommandList } = require('../Commands/_COMMANDS');
 
 const onInteraction = async (interaction) => {
 	try {

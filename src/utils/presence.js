@@ -1,4 +1,4 @@
-const { botErrorHandler } = require('../utils/botErrorHandler');
+const { botErrorHandler } = require('./botErrorHandler');
 try {
 	module.exports = async function (client) {
 		client.user.setPresence({

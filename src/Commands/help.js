@@ -3,8 +3,8 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed } = require('discord.js');
 const Help = {
 	data: new SlashCommandBuilder()
-		.setName('dsa')
-		.setDescription('Sends the link for the DSA course'),
+		.setName('help')
+		.setDescription('ends a list of valid commands (a.k.a. help command)'),
 
 	run: async (interaction) => {
 		try {
