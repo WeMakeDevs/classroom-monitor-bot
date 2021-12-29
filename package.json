@@ -44,6 +44,7 @@
 		]
 	},
 	"dependencies": {
+		"@discordjs/builders": "^0.10.0",
 		"@discordjs/rest": "^0.2.0-canary.0",
 		"alex": "^9.1.0",
 		"alexjs": "^1.0.0",
