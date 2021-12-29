@@ -1,4 +1,9 @@
 const { botErrorHandler } = require('./botErrorHandler');
+/**
+ *
+ * @deprecated
+ * this module is deprecated and will be removed in future.
+ */
 try {
 	module.exports = async function (client) {
 		client.user.setPresence({
