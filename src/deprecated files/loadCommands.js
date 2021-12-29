@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const { botErrorHandler } = require('./botErrorHandler');
+const { botErrorHandler } = require('../utils/botErrorHandler');
 
 /**
  *
