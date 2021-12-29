@@ -1,26 +1,28 @@
 const Discord = require('discord.js');
+const { SlashCommandBuilder } = require('@discordjs/builders');
+const { MessageEmbed } = require('discord.js');
 const alexjs = require('alex');
 const config = require('../../config.json').alexjs;
 const { botErrorHandler } = require('../utils/botErrorHandler');
 
-const warnEmbed = new Discord.MessageEmbed()
-	.setColor('#f44336')
-	.setTitle('Community monitor warning you!!')
-	.setURL('https://github.com/commclassroom/classroom-monitor-bot')
-	.setAuthor(
-		'Classroom Monitor',
-		'https://i.imgur.com/yMCOBLH.png',
-		'https://discord.js.org'
-	)
-	.addFields({
-		name: 'Hey you were found violating server rules ⚠️. Kindly follow #rules else this might lead to strict actions against you. 🚨',
-		value: 'If it was mistake by me, contact community moderator :)',
-	})
-	.setTimestamp()
-	.setFooter(
-		'Want help? Classroom monitor is just `cm!help` far',
-		'https://i.imgur.com/yMCOBLH.png'
-	);
+const warnEmbed = new MessageEmbed();
+warnEmbed.setColor('#f44336');
+warnEmbed.setTitle('Community monitor warning you!!');
+warnEmbed.setURL('https://github.com/commclassroom/classroom-monitor-bot');
+warnEmbed.setAuthor({
+	name: "'Classroon Monitor'",
+	url: 'https://discord.js.org/',
+	iconURL: 'https://i.imgur.com/yMCOBLH.png',
+});
+warnEmbed.addFields({
+	name: 'Hey you were found violating server rules ⚠️. Kindly follow #rules else this might lead to strict actions against you. 🚨',
+	value: 'If it was mistake by me, contact community moderator :)',
+});
+warnEmbed.setTimestamp();
+warnEmbed.setFooter(
+	'Want help? Classroom monitor is just `cm!help` far',
+	'https://i.imgur.com/yMCOBLH.png'
+);
 
 const words = [
 	'cfc',

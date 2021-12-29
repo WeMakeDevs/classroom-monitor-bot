@@ -1,34 +1,44 @@
 const { botErrorHandler } = require('../utils/botErrorHandler');
-try {
-	module.exports = {
-		name: 'source',
-		description: `Sends a link to the bot's source code`,
+const { SlashCommandBuilder } = require('@discordjs/builders');
+const { MessageEmbed } = require('discord.js');
 
-		execute(message, args, Discord) {
-			const linkEmbed = new Discord.MessageEmbed()
-				.setColor('#2e97c2')
-				.setTitle('Community Classroom Discord bot')
-				.setURL('https://github.com/commclassroom/classroom-monitor-bot')
-				.setAuthor(
-					'Classroon Monitor',
-					'https://i.imgur.com/yMCOBLH.png',
-					'https://discord.js.org'
-				)
-				.setDescription(
-					'Open Source Discord bot made by and for ✨Community Classroom✨'
-				)
-				.addFields({
-					name: 'GitHub',
-					value: 'https://github.com/commclassroom/classroom-monitor-bot',
-				})
-				.setTimestamp()
-				.setFooter(
-					'Want help? Classroom monitor is just `cm!help` far',
-					'https://i.imgur.com/yMCOBLH.png'
-				);
-			message.channel.send(linkEmbed);
-		},
-	};
-} catch (error) {
-	botErrorHandler('Source command', error);
-}
+const Source = {
+	data: new SlashCommandBuilder()
+		.setName('source')
+		.setDescription(`Sends a link to the bot's source code`),
+
+	run: async (interaction) => {
+		try {
+			await interaction.deferReply();
+
+			const sourceEmbed = new MessageEmbed();
+			sourceEmbed.setColor('#2e97c2');
+			sourceEmbed.setTitle('Community Classroom Discord bot');
+			sourceEmbed.setURL(
+				'https://github.com/commclassroom/classroom-monitor-bot'
+			);
+			sourceEmbed.setAuthor({
+				name: "'Classroon Monitor'",
+				url: 'https://discord.js.org/',
+				iconURL: 'https://i.imgur.com/yMCOBLH.png',
+			});
+			sourceEmbed.setDescription(
+				'Open Source Discord bot made by and for ✨Community Classroom✨'
+			);
+			sourceEmbed.addFields({
+				name: 'GitHub',
+				value: 'https://github.com/commclassroom/classroom-monitor-bot',
+			});
+			sourceEmbed.setTimestamp();
+			sourceEmbed.setFooter(
+				'Want help? Classroom monitor is just `cm!help` far',
+				'https://i.imgur.com/yMCOBLH.png'
+			);
+			await interaction.editReply({ embeds: [sourceEmbed] });
+		} catch (error) {
+			botErrorHandler('source command', error);
+		}
+	},
+};
+
+module.exports = { Source };
