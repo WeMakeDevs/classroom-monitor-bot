@@ -10,7 +10,6 @@ const Source = {
 	run: async (interaction) => {
 		try {
 			await interaction.deferReply();
-
 			const sourceEmbed = new MessageEmbed();
 			sourceEmbed.setColor('#2e97c2');
 			sourceEmbed.setTitle('Community Classroom Discord bot');
