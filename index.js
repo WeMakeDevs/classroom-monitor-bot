@@ -6,6 +6,7 @@ const { onInteraction } = require('./src/events/onInteraction');
 const { botLogHandler } = require('./src/utils/botLogHandler');
 const { validateEnv } = require('./src/utils/validateEnv');
 const { onReady } = require('./src/events/onReady');
+const { onMessage } = require('./src/events/onMessage');
 
 (async () => {
 	botLogHandler.log('debug', 'Validating environment variables');
@@ -24,6 +25,9 @@ const { onReady } = require('./src/events/onReady');
 		'interactionCreate',
 		async (interaction) => await onInteraction(interaction)
 	);
+	client.on('messageCreate', async (message) => {
+		await onMessage(message);
+	});
 
 	botLogHandler.log('debug', 'logging into discord');
 	await client.login(process.env.BOT_TOKEN);
