@@ -1,17 +1,22 @@
 const { botErrorHandler } = require('../utils/botErrorHandler');
+const { SlashCommandBuilder } = require('@discordjs/builders');
+const { MessageEmbed } = require('discord.js');
+const Version = {
+	data: new SlashCommandBuilder()
+		.setDescription('sends the current version of the bot')
+		.setName('version'),
 
-try {
-	module.exports = {
-		name: 'version',
-		description: 'sends the current version of the bot',
-		execute(message, args, Discord) {
-			message.reply(
-				` your monitor is running on version v${
-					require('../../package.json').version
-				}`
-			);
-		},
-	};
-} catch (error) {
-	botErrorHandler('version command', error);
-}
+	run: async (interaction) => {
+		try {
+			await interaction.deferReply();
+			const versionEmbed = new MessageEmbed();
+			const version = require('../../package.json').version;
+			versionEmbed.setTitle(`Current version of bot is ${version}`);
+
+			await interaction.editReply({ embeds: [versionEmbed] });
+		} catch (error) {
+			botErrorHandler('Help command', error);
+		}
+	},
+};
+module.exports = { Version };
