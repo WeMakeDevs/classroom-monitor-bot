@@ -9,24 +9,25 @@ require('dotenv').config();
 client.commands = new Discord.Collection();
 //Command inclusion
 
-const presence = require('./Commands/presence.js');
-const restrict = require('./Commands/restrictedWords.js');
+const presence = require('./src/Commands/presence');
+const restrict = require('./src/Commands/restrictedWords');
+const { botLogHandler } = require('./src/utils/botLogHandler');
 
 // Up commands
-
+botLogHandler.log('debug', 'setting commands');
 const commandFiles = fs
-	.readdirSync('./Commands/')
+	.readdirSync('./src/Commands/')
 	.filter((file) => file.endsWith('.js'));
 for (const file of commandFiles) {
-	const command = require(`./Commands/${file}`);
+	const command = require(`./src/Commands/${file}`);
 
 	client.commands.set(command.name, command);
 }
-
+botLogHandler.log('debug', 'starting bot');
 client.on('ready', () => {
-
 	console.log(
-		`Classroom Monitor is currently running on version v${require('./package.json').version
+		`Classroom Monitor is currently running on version v${
+			require('./package.json').version
 		}`
 	);
 
@@ -34,12 +35,14 @@ client.on('ready', () => {
 	presence(client);
 
 	// restricted words
-	restrict(client, (message) => { });
+	restrict(client, (message) => {});
 });
 
 client.on('message', (message) => {
 	if (
-		(!message.content.startsWith(prefix)) || message.author.bot || message.channel.type == 'dm'
+		!message.content.startsWith(prefix) ||
+		message.author.bot ||
+		message.channel.type == 'dm'
 	)
 		return;
 
@@ -49,10 +52,12 @@ client.on('message', (message) => {
 	try {
 		client.commands.get(command).execute(message, args, Discord);
 	} catch {
-		message.channel.send("Please use a valid command :slight_smile:\nTo see the list of valid commands use `cm!help`")
+		message.channel.send(
+			'Please use a valid command :slight_smile:\nTo see the list of valid commands use `cm!help`'
+		);
 	}
 });
 
 // Authentications
-
+botLogHandler.log('debug', 'Validating environment variables');
 client.login(process.env.BOT_TOKEN);
