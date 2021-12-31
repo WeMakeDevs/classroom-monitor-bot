@@ -1,6 +1,7 @@
 const { Client } = require('discord.js');
 require('dotenv').config();
 
+
 const { IntentOptions } = require('./src/config/IntentOptions');
 const { onInteraction } = require('./src/events/onInteraction');
 const { botLogHandler } = require('./src/utils/botLogHandler');
@@ -38,3 +39,4 @@ const { onMessage } = require('./src/events/onMessage');
 	botLogHandler.log('info', 'logging into discord');
 	await client.login(process.env.BOT_TOKEN);
 })();
+

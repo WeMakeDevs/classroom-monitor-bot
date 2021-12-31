@@ -1,4 +1,5 @@
 const { botErrorHandler } = require('../utils/botErrorHandler');
+
 const { SlashCommandBuilder } = require('@discordjs/builders');
 
 const Hey = {
