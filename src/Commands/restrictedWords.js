@@ -38,6 +38,12 @@ const words = [
 	'white hat jr',
 	'white hat junior',
 	'whitehatjunior',
+	'edtech startup',
+	'edtech startups',
+	'edtechstartup',
+	'edtechstartups',
+	'edtech_startup',
+	'edtech_startups',
 ];
 
 const csgo_scam =
