@@ -34,7 +34,7 @@ try {
 					},
 					{
 						name: 'Discord Invite',
-						value: 'https://discord.gg/commclsassroom',
+						value: 'https://discord.gg/commclassroom',
 					},
 					{
 						name: 'Telegram Invite',
