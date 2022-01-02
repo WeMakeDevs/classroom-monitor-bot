@@ -1,4 +1,5 @@
 {
+
 	"name": "classroom-monitor-bot",
 	"version": "1.14.6",
 	"description": "Friendly Discord bot for the Community Classroom Discord server",
@@ -61,3 +62,4 @@
 		"npm": "7.x"
 	}
 }
+

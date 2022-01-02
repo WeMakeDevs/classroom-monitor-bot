@@ -38,15 +38,21 @@ const words = [
 	'white hat jr',
 	'white hat junior',
 	'whitehatjunior',
+	'edtech startup',
+	'edtech startups',
+	'edtechstartup',
+	'edtechstartups',
+	'edtech_startup',
+	'edtech_startups',
 ];
 
-let csgo_scam =
+const csgo_scam =
 	'hello! i leave from cs:go and give all my inventory, the first three who send a trade';
-let discord_scam1 =
+const discord_scam1 =
 	'Yo, friend gave me a referral link to get Discord nitro for free';
-let discord_scam2 = 'Discord Nitro for Free - Steam Store';
-let discord_scam3 = '3 months of Discord Nitro free from STEAM';
-let discord_scam4 = 'Free 3 months Discord Nitro';
+const discord_scam2 = 'Discord Nitro for Free - Steam Store';
+const discord_scam3 = '3 months of Discord Nitro free from STEAM';
+const discord_scam4 = 'Free 3 months Discord Nitro';
 
 try {
 	module.exports = (client, callback) => {
