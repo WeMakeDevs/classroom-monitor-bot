@@ -61,7 +61,7 @@ try {
 				if (message.content.toLowerCase().includes(words[i])) {
 					warningMessage =
 						'Please do not talk about other edTech startups here 🚫. If you think I did a mistake dont worry I am still under development, tag Community Manager and report this 🏷️. ';
-					message.author.send(customMessage);
+					message.author.send(warningMessage);
 					message.delete();
 					break;
 				}

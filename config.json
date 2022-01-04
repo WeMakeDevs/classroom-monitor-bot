@@ -47,7 +47,8 @@
             "special",
             "remain",
             "hook",
-            "uk"
+            "uk",
+            "whitespace"
         ]
     }
 }
