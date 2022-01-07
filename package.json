@@ -1,60 +1,64 @@
 {
-  "name": "classroom-monitor-bot",
-  "version": "1.17.0",
-  "description": "Friendly Discord bot for the Community Classroom Discord server",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install",
-    "start": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/commclassroom/classroom-monitor-bot.git"
-  },
-  "keywords": [
-    "node",
-    "express",
-    "discordjs",
-    "free-edu",
-    "cs"
-  ],
-  "author": "Community Classroom",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/commclassroom/classroom-monitor-bot/issues"
-  },
-  "homepage": "https://github.com/commclassroom/classroom-monitor-bot#readme",
-  "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
-    "docsify-cli": "^4.4.3",
-    "eslint": "^7.31.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "husky": "^7.0.0",
-    "lint-staged": "^11.1.1",
-    "nodemon": "^2.0.12",
-    "prettier": "^2.3.2"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "prettier --write"
-    ]
-  },
-  "dependencies": {
-    "alex": "^9.1.0",
-    "alexjs": "^1.0.0",
-    "bing-translate-api": "^2.2.0",
-    "discord.js": "^12.5.3",
-    "dotenv": "^10.0.0",
-    "fs": "^0.0.1-security",
-    "memejs": "^2.0.1",
-    "winston": "^3.3.3"
-  },
-  "engines": {
-    "node": "16.x",
-    "npm": "7.x"
-  }
+
+	"name": "classroom-monitor-bot",
+	"version": "1.14.6",
+	"description": "Friendly Discord bot for the Community Classroom Discord server",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky install",
+		"start": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/commclassroom/classroom-monitor-bot.git"
+	},
+	"keywords": [
+		"node",
+		"express",
+		"discordjs",
+		"free-edu",
+		"cs"
+	],
+	"author": "Community Classroom",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/commclassroom/classroom-monitor-bot/issues"
+	},
+	"homepage": "https://github.com/commclassroom/classroom-monitor-bot#readme",
+	"devDependencies": {
+		"@commitlint/cli": "^13.1.0",
+		"@commitlint/config-conventional": "^13.1.0",
+		"docsify-cli": "^4.4.3",
+		"eslint": "^7.31.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^3.4.0",
+		"husky": "^7.0.0",
+		"lint-staged": "^11.1.1",
+		"nodemon": "^2.0.12",
+		"prettier": "^2.3.2"
+	},
+	"lint-staged": {
+		"*.js": [
+			"eslint --fix",
+			"prettier --write"
+		]
+	},
+	"dependencies": {
+		"@discordjs/builders": "^0.10.0",
+		"@discordjs/rest": "^0.2.0-canary.0",
+		"discord-api-types": "^0.26.0",
+		"alex": "^9.1.0",
+		"alexjs": "^1.0.0",
+		"bing-translate-api": "^2.2.0",
+		"discord.js": "^13.4.0",
+		"dotenv": "^10.0.0",
+		"fs": "^0.0.1-security",
+		"memejs": "^2.0.1",
+		"winston": "^3.3.3"
+	},
+	"engines": {
+		"node": "16.x",
+		"npm": "7.x"
+	}
 }

@@ -1,32 +1,45 @@
 const { botErrorHandler } = require('../utils/botErrorHandler');
+const { SlashCommandBuilder } = require('@discordjs/builders');
+const { MessageEmbed } = require('discord.js');
 
-try {
-	module.exports = {
-		name: 'help',
-		description: 'Sends a list of valid commands (a.k.a. help command)',
-		execute(message, args, Discord) {
-			const helpEmbed = new Discord.MessageEmbed()
-				.setColor('#2e97c2')
-				.setTitle('Community monitor for help')
-				.setURL('https://github.com/commclassroom/classroom-monitor-bot')
-				.setAuthor(
-					'Classroom Monitor',
-					'https://i.imgur.com/yMCOBLH.png',
-					'https://discord.js.org'
-				)
-				.setDescription('Quality Education. Free For All. Forever.')
-				.addFields({
-					name: 'Current Supported Commands',
-					value: '`hey`, `help`,`version`,`links`,`translate`,`meme`,`source`',
-				})
-				.setTimestamp()
-				.setFooter(
-					'Want help? Classroom Monitor is just `cm!help` far',
-					'https://i.imgur.com/yMCOBLH.png'
-				);
-			message.channel.send(helpEmbed);
-		},
-	};
-} catch (error) {
-	botErrorHandler('Help command', error);
-}
+const Help = {
+	data: new SlashCommandBuilder()
+		.setName('help')
+		.setDescription('ends a list of valid commands (a.k.a. help command)'),
+
+	run: async (interaction) => {
+		try {
+			await interaction.deferReply();
+			const helpEmbed = new MessageEmbed();
+			helpEmbed.setColor('#2e97c2');
+			helpEmbed.setTitle('Community monitor for help');
+			helpEmbed.setURL(
+				'https://github.com/commclassroom/classroom-monitor-bot'
+			);
+			helpEmbed.setAuthor({
+				name: "'Classroon Monitor'",
+				url: 'https://discord.js.org/',
+				iconURL: 'https://i.imgur.com/yMCOBLH.png',
+			});
+			helpEmbed.addFields({
+				name: 'Current Supported Commands',
+				value: '`hey`, `help`,`version`,`links`,`translate`,`meme`,`source`',
+			});
+
+			helpEmbed.setDescription('Quality Education. Free For All. Forever.');
+			helpEmbed.setTimestamp();
+
+			helpEmbed.setFooter(
+				'Want help? Classroom monitor is just `/help` far',
+				'https://i.imgur.com/yMCOBLH.png'
+			);
+
+			await interaction.editReply({ embeds: [helpEmbed] });
+		} catch (error) {
+			botErrorHandler('Help command', error);
+		}
+	},
+};
+
+module.exports = { Help };
+
