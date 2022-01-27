@@ -78,7 +78,7 @@ Please follow all instructions in [the template](https://github.com/commclassroo
 
 ### System requirements
 
-1. Any system with basic configuration.
+1. Any system with basic configuration
 2. Operating System: Windows / Linux / Mac
 
 ### Software requirements
@@ -89,7 +89,7 @@ Please follow all instructions in [the template](https://github.com/commclassroo
 
 ### Skill requirement
 
-1. Basic Knowledge of Git & GitHub.
+1. Basic Knowledge of Git & GitHub
 2. JavaScript
 3. [NodeJS](https://nodejs.org/en/)
 4. [expressJS](https://expressjs.com/)
@@ -119,7 +119,7 @@ If you're not sure how to enable it, go to `Settings > Advanced > Developer Mode
 
 Whenever you want to contribute to any project, it is a good practice to make a separate branch and push it as a PR, rather than making changes to the main/master branch.
 
-1. `git checkout -b <your-branch-name>` will make a separate branch and will change to that branch
+1. `git checkout -b <your-branch-name>` will make a separate branch and will change to that branch.
 2. Now you are ready to make your changes.
 
 ### Setting up application and creating bot
@@ -148,9 +148,9 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 1. Open the folder of your cloned repository with any text editor of your choice (VSCode recommended)
 2. Now go to the [Discord Developers Portal](https://discord.com/developers/) page where you created the bot and copy the bot token from `Bot` tab(refer to image below)
     ![Bot Token](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/BotToken.jpg)
-3. Now create file named`.env` in your root folder. Copy everything from the `.env-sample` file and replace the `BOT-TOKEN` value with the copied token. Note that the `.env` file should be nameless. Create a nameless file, with the extension `.env`. If you add a name to the file, NPM won't be able to access the token.
+3. Now create file named`.env` in your root folder. Copy everything from the `.env-sample` file and replace the `BOT-TOKEN` value with the copied token. Note that the `.env` file should be nameless. Create a nameless file, with the extension `.env`. If you add a name to the file, NPM won't be able to access the token
 4. In the terminal run, `npm install`, this will install all the necessary packages
-5. Start our server by running `npm start`.
+5. Start our server by running `npm start`
 6. All done! The bot is now online!
 
 ## Supported commands
@@ -216,11 +216,11 @@ Must be one of the following:
 - `fix`      Commits that fixes a bug
 - `refactor` Commits that rewrite/restructure your code, however does not change any behaviour
 - `perf`     Commits that are special `refactor` commits that improve performance
-- `style`    Commits that do not affect the meaning (white-space, formatting, missing semi-colons, etc.)
+- `style`    Commits that do not affect the meaning (white-space, formatting, missing semi-colons, etc)
 - `test`     Commits that add missing tests or correct existing tests
 - `docs`     Commits that affect documentation only
-- `build`    Commits that affect build components like build tool, ci pipeline, dependencies, project version, etc.
-- `ops`   Commits that affect operational components like infrastructure, deployment, backup, recovery, etc.
+- `build`    Commits that affect build components like build tool, ci pipeline, dependencies, project version, etc
+- `ops`   Commits that affect operational components like infrastructure, deployment, backup, recovery, etc
 - `chore`    Miscellaneous commits. E.g.: modifying `.gitignore`
 
 ##### Scope
@@ -287,7 +287,7 @@ Not sure what to type in the summary? Refer to [this](#summary)
 - Capitalize the subject line and each paragraph
 - Use the imperative mood in the subject line
 - Use the body to explain what changes you have made and why you made them.
-- Do not assume the reviewer understands what the original problem was, ensure you add it.
+- Do not assume the reviewer understands what the original problem was, ensure you add it
 - Do not think your code is self-explanatory
 - Follow the commit convention defined by your team
 
