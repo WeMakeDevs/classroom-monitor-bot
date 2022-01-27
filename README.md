@@ -177,7 +177,7 @@ Must be one of the following:
 * `fix`      Commits that fixes a bug
 * `refactor` Commits that rewrite/restructure your code, however, does not change any behavior
 * `perf`     Commits that are special `refactor` commits that improve performance
-* `style`    Commits that do not affect the meaning (white-space, formatting, missing semi-colons, etc)
+* `style`    Commits that do not affect the meaning (white-space, formatting, missing semi-colons, etc.)
 * `test`     Commits that add missing tests or correct existing tests
 * `docs`     Commits that affect documentation only
 * `build`    Commits that affect build components like build tool, ci pipeline, dependencies, project version, etc
