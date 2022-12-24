@@ -3,8 +3,8 @@
 <h1 align="center"> Classroom Monitor Bot </h1>
 <p>
 <p align="center">
-  <b>This bot provides functionalities for the 'We Make Devs' Discord server.</b> <br><br>
-  <b>We Make Devs is an initiative 'for the students, by the students'. The initiative aims to provide 'quality education which is free for all'.</b> <br><br>
+  <b>This bot provides functionalities for the 'WeMakeDevs' Discord server.</b> <br><br>
+  <b>WeMakeDevs is an initiative 'for the students, by the students'. The initiative aims to provide 'quality education which is free for all'.</b> <br><br>
   <b>Follow us and be a part of this amazing community.</b> <br><br>
   <a href="https://www.youtube.com/c/KunalKushwaha">
     <img width="30px" src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg" />
@@ -28,7 +28,7 @@
 
 ## About
 
-We believe that every student, irrespective of their college or branch, can make it big. We Make Devs is an initiative built on this thought. We provide hands-on training, mentorship and have an inclusive community. All of our courses are FREE and better than most paid courses. We cover every topic in detail and mentor you to stand out and get opportunities by breaking all the barriers. Get expert guidance with career, Open Source, and internships/jobs around the world.
+We believe that every student, irrespective of their college or branch, can make it big. WeMakeDevs is an initiative built on this thought. We provide hands-on training, mentorship and have an inclusive community. All of our courses are FREE and better than most paid courses. We cover every topic in detail and mentor you to stand out and get opportunities by breaking all the barriers. Get expert guidance with career, Open Source, and internships/jobs around the world.
 
 ## Note to all contributors
 
@@ -91,7 +91,7 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 2. Login with your Discord credentials. You will see the following screen (image below and for you, it will probably be a blank one)
     ![homepage](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/HomePage.jpg)
 3. Now click the `New Application` button (refer to the image above)
-4. Name your bot (it can be `We Make Devs bot` or anything else) and press `create`
+4. Name your bot (it can be `WeMakeDevs bot` or anything else) and press `create`
 5. You will be at the Developers Portal where you can customize your bot (refer to the image below)
     ![dashboard](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/Dashboard.jpg)
 6. Now to create your bot instance go to the `Bot` tab, and press `Add Bot` followed by `Yes, do it` in the following popup (refer to the image below)
@@ -127,7 +127,7 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 | `cm!translate <text>` | Translate the given text to English                            |
 | `cm!meme`                  | Send a meme from the [r/programmerhumor](https://www.reddit.com/r/ProgrammerHumor/) Reddit
 
-**This bot is reserved for functionalities offered for the We Make Devs community.**
+**This bot is reserved for functionalities offered for the WeMakeDevs community.**
 
 ## Commit Message
 
