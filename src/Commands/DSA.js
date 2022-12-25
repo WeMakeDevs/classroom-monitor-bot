@@ -23,9 +23,9 @@ const DSA = {
 			await interaction.deferReply(); //https://discordjs.guide/interactions/replying-to-slash-commands.html#editing-responses
 			const linkEmbed = new MessageEmbed();
 			linkEmbed.setColor('#2e97c2');
-			linkEmbed.setTitle('Community Classroom DSA course details');
+			linkEmbed.setTitle('WeMakeDevs DSA course details');
 			linkEmbed.setURL(
-				'https://github.com/commclassroom/classroom-monitor-bot'
+				'https://github.com/WeMakeDevs/classroom-monitor-bot'
 			);
 			/**@deprecated — Supply a lone object of interface EmbedAuthorData instead of more parameters.the signature '(name: string, iconURL?: string, url?: string): MessageEmbed' of 'linkEmbed.setAuthor' is deprecated.ts(6387) */
 			linkEmbed.setAuthor({

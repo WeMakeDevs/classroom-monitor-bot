@@ -6,7 +6,7 @@ const { botErrorHandler } = require('../utils/botErrorHandler');
 const warnEmbed = new Discord.MessageEmbed()
 	.setColor('#f44336')
 	.setTitle('Community monitor warning you!!')
-	.setURL('https://github.com/commclassroom/classroom-monitor-bot')
+	.setURL('https://github.com/WeMakeDevs/classroom-monitor-bot')
 	.setAuthor(
 		'Classroom Monitor',
 		'https://i.imgur.com/yMCOBLH.png',

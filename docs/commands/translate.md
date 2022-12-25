@@ -14,4 +14,4 @@ cm!translate Salut
 ```
 
 ### Response
-![](https://commclassroom.github.io/classroom-monitor-bot/images/translate.png)
+![](https://WeMakeDevs.github.io/classroom-monitor-bot/images/translate.png)

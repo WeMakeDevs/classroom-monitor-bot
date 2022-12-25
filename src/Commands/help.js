@@ -14,7 +14,7 @@ const Help = {
 			helpEmbed.setColor('#2e97c2');
 			helpEmbed.setTitle('Community monitor for help');
 			helpEmbed.setURL(
-				'https://github.com/commclassroom/classroom-monitor-bot'
+				'https://github.com/WeMakeDevs/classroom-monitor-bot'
 			);
 			helpEmbed.setAuthor({
 				name: "'Classroon Monitor'",

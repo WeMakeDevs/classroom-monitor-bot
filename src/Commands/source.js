@@ -12,9 +12,9 @@ const Source = {
 			await interaction.deferReply();
 			const sourceEmbed = new MessageEmbed();
 			sourceEmbed.setColor('#2e97c2');
-			sourceEmbed.setTitle('Community Classroom Discord bot');
+			sourceEmbed.setTitle('WeMakeDevs Discord bot');
 			sourceEmbed.setURL(
-				'https://github.com/commclassroom/classroom-monitor-bot'
+				'https://github.com/WeMakeDevs/classroom-monitor-bot'
 			);
 			sourceEmbed.setAuthor({
 				name: "'Classroon Monitor'",
@@ -22,11 +22,11 @@ const Source = {
 				iconURL: 'https://i.imgur.com/yMCOBLH.png',
 			});
 			sourceEmbed.setDescription(
-				'Open Source Discord bot made by and for ✨Community Classroom✨'
+				'Open Source Discord bot made by and for ✨WeMakeDevs✨'
 			);
 			sourceEmbed.addFields({
 				name: 'GitHub',
-				value: 'https://github.com/commclassroom/classroom-monitor-bot',
+				value: 'https://github.com/WeMakeDevs/classroom-monitor-bot',
 			});
 			sourceEmbed.setTimestamp();
 			sourceEmbed.setFooter(

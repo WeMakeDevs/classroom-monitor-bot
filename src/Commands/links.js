@@ -5,7 +5,7 @@ const { MessageEmbed } = require('discord.js');
 const Links = {
 	data: new SlashCommandBuilder()
 		.setName('links')
-		.setDescription(`Sends all Community Classroom's socials`),
+		.setDescription(`Sends all WeMakeDevs's socials`),
 
 	run: async (interaction) => {
 		try {
@@ -14,7 +14,7 @@ const Links = {
 			LinkEmbed.setColor('#2e97c2');
 			LinkEmbed.setTitle('Community monitor for help');
 			LinkEmbed.setURL(
-				'https://github.com/commclassroom/classroom-monitor-bot'
+				'https://github.com/WeMakeDevs/classroom-monitor-bot'
 			);
 			LinkEmbed.setAuthor({
 				name: "'Classroon Monitor'",
@@ -24,15 +24,15 @@ const Links = {
 			LinkEmbed.addFields(
 				{
 					name: 'LinkedIn',
-					value: 'https://www.linkedin.com/company/commclassroom/',
+					value: 'https://www.linkedin.com/company/WeMakeDevs/',
 				},
 				{
 					name: 'Twitter',
-					value: 'https://twitter.com/commclassroom/',
+					value: 'https://twitter.com/WeMakeDevs/',
 				},
 				{
 					name: 'Instagram',
-					value: 'https://www.instagram.com/commclassroom/',
+					value: 'https://www.instagram.com/WeMakeDevs/',
 				},
 				{
 					name: 'YouTube',
@@ -40,11 +40,11 @@ const Links = {
 				},
 				{
 					name: 'Discord Invite',
-					value: 'https://discord.gg/commclsassroom',
+					value: 'https://discord.gg/WeMakeDevs',
 				},
 				{
 					name: 'Telegram Invite',
-					value: 'https://t.me/commclassroom',
+					value: 'https://t.me/WeMakeDevs',
 				}
 			);
 			LinkEmbed.setDescription('Quality Education. Free For All. Forever.');

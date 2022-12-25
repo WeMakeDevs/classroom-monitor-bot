@@ -2,7 +2,7 @@
 
 	"name": "classroom-monitor-bot",
 	"version": "1.14.6",
-	"description": "Friendly Discord bot for the Community Classroom Discord server",
+	"description": "Friendly Discord bot for the WeMakeDevs Discord server",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/commclassroom/classroom-monitor-bot.git"
+		"url": "git+https://github.com/WeMakeDevs/classroom-monitor-bot.git"
 	},
 	"keywords": [
 		"node",
@@ -20,12 +20,12 @@
 		"free-edu",
 		"cs"
 	],
-	"author": "Community Classroom",
+	"author": "WeMakeDevs",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/commclassroom/classroom-monitor-bot/issues"
+		"url": "https://github.com/WeMakeDevs/classroom-monitor-bot/issues"
 	},
-	"homepage": "https://github.com/commclassroom/classroom-monitor-bot#readme",
+	"homepage": "https://github.com/WeMakeDevs/classroom-monitor-bot#readme",
 	"devDependencies": {
 		"@commitlint/cli": "^13.1.0",
 		"@commitlint/config-conventional": "^13.1.0",

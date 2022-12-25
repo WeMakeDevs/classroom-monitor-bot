@@ -40,7 +40,7 @@ const checkRestricted = async (message) => {
 				warnEmbed.setColor('#f44336');
 				warnEmbed.setTitle('Community monitor warning you!!');
 				warnEmbed.setURL(
-					'https://github.com/commclassroom/classroom-monitor-bot'
+					'https://github.com/WeMakeDevs/classroom-monitor-bot'
 				);
 				warnEmbed.setAuthor({
 					name: "'Classroon Monitor'",

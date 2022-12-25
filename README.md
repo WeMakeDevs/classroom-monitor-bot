@@ -62,13 +62,13 @@ To get started with contributing, go through the following steps.
 ### Forking repository
 
 1. Firstly to make your copy of the project you have to fork the repository. To fork the repository, press the fork button. In case of any difficulties, refer to the image below
-    ![fork](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/Fork.jpg)
+    ![fork](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/Fork.jpg)
 
 ### Clone repository
 
 1. Now after you have forked the project, it's time to clone it into your local device so that you can work properly.
 2. In your forked repository click on the green code button and copy the provided link. In case of any difficulties, refer to the image below
-    ![clone](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/Clone.jpg)
+    ![clone](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/Clone.jpg)
 
 3. Now on your desktop open Git Bash and type `git clone <your-clone-url>.git`, and press enter
 4. Now, your forked repository has been cloned in your device! 🎉
@@ -89,20 +89,20 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 
 1. Go to the [Discord Developers Portal](https://discord.com/developers/applications/) page
 2. Login with your Discord credentials. You will see the following screen (image below and for you, it will probably be a blank one)
-    ![homepage](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/HomePage.jpg)
+    ![homepage](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/HomePage.jpg)
 3. Now click the `New Application` button (refer to the image above)
 4. Name your bot (it can be `WeMakeDevs bot` or anything else) and press `create`
 5. You will be at the Developers Portal where you can customize your bot (refer to the image below)
-    ![dashboard](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/Dashboard.jpg)
+    ![dashboard](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/Dashboard.jpg)
 6. Now to create your bot instance go to the `Bot` tab, and press `Add Bot` followed by `Yes, do it` in the following popup (refer to the image below)
-    ![bot instance](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/BotInstance.jpg)
+    ![bot instance](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/BotInstance.jpg)
 7. You will be redirected to something similar to this screen
-    ![after adding bot](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/After_adding_bot.jpg)
+    ![after adding bot](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/After_adding_bot.jpg)
 8. Go to `OAuth2` and copy the Client ID (refer to the image below)
-    ![App ID](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/app_id.jpg)
+    ![App ID](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/app_id.jpg)
 9. Now to invite the bot to your server, paste this link in your browser `https://discord.com/api/oauth2/authorize?client_id=<app-id>&permissions=8&scope=bot` and just replace `<app-id>` with your copied client ID
 10. You will be redirected to this screen (image below) where you have to select a server and click on `continue` and `authorize` after that
-    ![Add server](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/add_server.jpg)
+    ![Add server](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/add_server.jpg)
 
 ##### Amazing! You have added the bot to your server; although you might see it's offline. Let's make it go online!
 
@@ -110,7 +110,7 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 
 1. Open the folder of your cloned repository with any text editor of your choice (VSCode recommended)
 2. Now go to the [Discord Developers Portal](https://discord.com/developers/) page where you created the bot and copy the bot token from the `Bot` tab (refer to the image below)
-    ![Bot Token](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/BotToken.jpg)
+    ![Bot Token](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/BotToken.jpg)
 3. Now create a file named`.env` in your root folder. Copy everything from the `.env-sample` file and replace the `BOT-TOKEN` value with the copied token. Note that the `.env` file should be nameless. Create a nameless file, with the extension `.env`. If you add a name to the file, NPM won't be able to access the token.
 4. In the terminal run, `npm install`, this will install all the necessary packages
 5. Start our server by running `npm start`.
@@ -262,4 +262,4 @@ feat: :sparkles: add the amazing button
 
 Every contributor's efforts and time are deeply appreciated! Thank you. :smile:
 
-[![Contributors](https://contrib.rocks/image?repo=commclassroom/classroom-monitor-bot)](https://github.com/commclassroom/classroom-monitor-bot/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=WeMakeDevs/classroom-monitor-bot)](https://github.com/WeMakeDevs/classroom-monitor-bot/graphs/contributors)

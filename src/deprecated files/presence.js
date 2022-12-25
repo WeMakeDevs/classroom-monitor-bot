@@ -11,7 +11,7 @@ try {
 			activity: {
 				name: 'cm!help',
 				type: 'LISTENING',
-				url: 'https://github.com/commclassroom/classroom-monitor-bot',
+				url: 'https://github.com/WeMakeDevs/classroom-monitor-bot',
 			},
 		});
 	};
