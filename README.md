@@ -1,34 +1,34 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/51391473/141665364-b0ef8d87-6f35-4bee-af39-734b9e338d38.png" width=200px height=200px>
+<img src="https://user-images.githubusercontent.com/91791257/209436999-007b066a-01d9-490b-9bfd-3010e53d6954.jpg" width=200px height=200px>
 <h1 align="center"> Classroom Monitor Bot </h1>
 <p>
 <p align="center">
-  <b>This bot provides functionalities for the Community Classroom Discord server.</b> <br><br>
-  <b>Community Classroom is an initiative 'for the students, by the students'. The initiative aims to provide 'quality education which is free for all'.</b> <br><br>
+  <b>This bot provides functionalities for the 'WeMakeDevs' Discord server.</b> <br><br>
+  <b>WeMakeDevs is an initiative 'for the students, by the students'. The initiative aims to provide 'quality education which is free for all'.</b> <br><br>
   <b>Follow us and be a part of this amazing community.</b> <br><br>
   <a href="https://www.youtube.com/c/KunalKushwaha">
     <img width="30px" src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg" />
   </a>&ensp;
-  <a href="https://twitter.com/commclassroom/">
+  <a href="https://twitter.com/WeMakeDevs">
     <img width="30px" src="https://www.vectorlogo.zone/logos/twitter/twitter-official.svg" />
   </a>&ensp;
-  <a href="https://www.linkedin.com/company/commclassroom/">
+  <a href="https://www.linkedin.com/company/wemakedevs/">
     <img width="30px" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" />
   </a>&ensp;
-  <a href="https://www.instagram.com/commclassroom/">
+  <a href="https://www.instagram.com/wemakedevs/">
     <img width="30px" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" />
   </a>&ensp;
-  <a href="https://discord.gg/commclassroom">
+  <a href="https://discord.gg/wemakedevs">
     <img width="30px" src="https://discord.com/assets/3437c10597c1526c3dbd98c737c2bcae.svg" />
   </a>&ensp;
-  <a href="https://t.me/commclassroom">
+  <a href="https://t.me/WeMakeDevs">
     <img width="30px" src="https://www.vectorlogo.zone/logos/telegram/telegram-icon.svg" />
   </a><br>
 </p>  
 
 ## About
 
-We believe that every student, irrespective of their college or branch, can make it big. Community Classroom is an initiative built on this thought. We provide hands-on training, mentorship and have an inclusive community. All of our courses are FREE and better than most paid courses. We cover every topic in detail and mentor you to stand out and get opportunities by breaking all the barriers. Get expert guidance with career, Open Source, and internships/jobs around the world.
+We believe that every student, irrespective of their college or branch, can make it big. WeMakeDevs is an initiative built on this thought. We provide hands-on training, mentorship and have an inclusive community. All of our courses are FREE and better than most paid courses. We cover every topic in detail and mentor you to stand out and get opportunities by breaking all the barriers. Get expert guidance with career, Open Source, and internships/jobs around the world.
 
 ## Note to all contributors
 
@@ -62,13 +62,13 @@ To get started with contributing, go through the following steps.
 ### Forking repository
 
 1. Firstly to make your copy of the project you have to fork the repository. To fork the repository, press the fork button. In case of any difficulties, refer to the image below
-    ![fork](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/Fork.jpg)
+    ![fork](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/Fork.jpg)
 
 ### Clone repository
 
 1. Now after you have forked the project, it's time to clone it into your local device so that you can work properly.
 2. In your forked repository click on the green code button and copy the provided link. In case of any difficulties, refer to the image below
-    ![clone](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/Clone.jpg)
+    ![clone](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/Clone.jpg)
 
 3. Now on your desktop open Git Bash and type `git clone <your-clone-url>.git`, and press enter
 4. Now, your forked repository has been cloned in your device! 🎉
@@ -89,20 +89,20 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 
 1. Go to the [Discord Developers Portal](https://discord.com/developers/applications/) page
 2. Login with your Discord credentials. You will see the following screen (image below and for you, it will probably be a blank one)
-    ![homepage](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/HomePage.jpg)
+    ![homepage](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/HomePage.jpg)
 3. Now click the `New Application` button (refer to the image above)
-4. Name your bot (it can be `Community Classroom bot` or anything else) and press `create`
+4. Name your bot (it can be `WeMakeDevs bot` or anything else) and press `create`
 5. You will be at the Developers Portal where you can customize your bot (refer to the image below)
-    ![dashboard](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/Dashboard.jpg)
+    ![dashboard](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/Dashboard.jpg)
 6. Now to create your bot instance go to the `Bot` tab, and press `Add Bot` followed by `Yes, do it` in the following popup (refer to the image below)
-    ![bot instance](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/BotInstance.jpg)
+    ![bot instance](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/BotInstance.jpg)
 7. You will be redirected to something similar to this screen
-    ![after adding bot](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/After_adding_bot.jpg)
+    ![after adding bot](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/After_adding_bot.jpg)
 8. Go to `OAuth2` and copy the Client ID (refer to the image below)
-    ![App ID](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/app_id.jpg)
+    ![App ID](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/app_id.jpg)
 9. Now to invite the bot to your server, paste this link in your browser `https://discord.com/api/oauth2/authorize?client_id=<app-id>&permissions=8&scope=bot` and just replace `<app-id>` with your copied client ID
 10. You will be redirected to this screen (image below) where you have to select a server and click on `continue` and `authorize` after that
-    ![Add server](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/add_server.jpg)
+    ![Add server](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/add_server.jpg)
 
 ##### Amazing! You have added the bot to your server; although you might see it's offline. Let's make it go online!
 
@@ -110,7 +110,7 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 
 1. Open the folder of your cloned repository with any text editor of your choice (VSCode recommended)
 2. Now go to the [Discord Developers Portal](https://discord.com/developers/) page where you created the bot and copy the bot token from the `Bot` tab (refer to the image below)
-    ![Bot Token](https://raw.githubusercontent.com/commclassroom/classroom-monitor-bot/main/doc/images/BotToken.jpg)
+    ![Bot Token](https://raw.githubusercontent.com/WeMakeDevs/classroom-monitor-bot/main/doc/images/BotToken.jpg)
 3. Now create a file named`.env` in your root folder. Copy everything from the `.env-sample` file and replace the `BOT-TOKEN` value with the copied token. Note that the `.env` file should be nameless. Create a nameless file, with the extension `.env`. If you add a name to the file, NPM won't be able to access the token.
 4. In the terminal run, `npm install`, this will install all the necessary packages
 5. Start our server by running `npm start`.
@@ -127,7 +127,7 @@ Whenever you want to contribute to any project, it is a good practice to make a 
 | `cm!translate <text>` | Translate the given text to English                            |
 | `cm!meme`                  | Send a meme from the [r/programmerhumor](https://www.reddit.com/r/ProgrammerHumor/) Reddit
 
-**This bot is reserved for functionalities offered for the Community Classroom community.**
+**This bot is reserved for functionalities offered for the WeMakeDevs community.**
 
 ## Commit Message
 
@@ -262,4 +262,4 @@ feat: :sparkles: add the amazing button
 
 Every contributor's efforts and time are deeply appreciated! Thank you. :smile:
 
-[![Contributors](https://contrib.rocks/image?repo=commclassroom/classroom-monitor-bot)](https://github.com/commclassroom/classroom-monitor-bot/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=WeMakeDevs/classroom-monitor-bot)](https://github.com/WeMakeDevs/classroom-monitor-bot/graphs/contributors)

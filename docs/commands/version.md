@@ -8,4 +8,4 @@ cm!version
 ```
 
 ### Response
-![](https://commclassroom.github.io/classroom-monitor-bot/images/version.png)
+![](https://WeMakeDevs.github.io/classroom-monitor-bot/images/version.png)

@@ -14,12 +14,12 @@ const Help = {
 			helpEmbed.setColor('#2e97c2');
 			helpEmbed.setTitle('Community monitor for help');
 			helpEmbed.setURL(
-				'https://github.com/commclassroom/classroom-monitor-bot'
+				'https://github.com/WeMakeDevs/classroom-monitor-bot'
 			);
 			helpEmbed.setAuthor({
 				name: "'Classroon Monitor'",
 				url: 'https://discord.js.org/',
-				iconURL: 'https://i.imgur.com/yMCOBLH.png',
+				iconURL: 'https://user-images.githubusercontent.com/91791257/209436999-007b066a-01d9-490b-9bfd-3010e53d6954.jpg',
 			});
 			helpEmbed.addFields({
 				name: 'Current Supported Commands',
@@ -31,7 +31,7 @@ const Help = {
 
 			helpEmbed.setFooter(
 				'Want help? Classroom monitor is just `/help` far',
-				'https://i.imgur.com/yMCOBLH.png'
+				'https://user-images.githubusercontent.com/91791257/209436999-007b066a-01d9-490b-9bfd-3010e53d6954.jpg'
 			);
 
 			await interaction.editReply({ embeds: [helpEmbed] });

@@ -23,15 +23,15 @@ const DSA = {
 			await interaction.deferReply(); //https://discordjs.guide/interactions/replying-to-slash-commands.html#editing-responses
 			const linkEmbed = new MessageEmbed();
 			linkEmbed.setColor('#2e97c2');
-			linkEmbed.setTitle('Community Classroom DSA course details');
+			linkEmbed.setTitle('WeMakeDevs DSA course details');
 			linkEmbed.setURL(
-				'https://github.com/commclassroom/classroom-monitor-bot'
+				'https://github.com/WeMakeDevs/classroom-monitor-bot'
 			);
 			/**@deprecated — Supply a lone object of interface EmbedAuthorData instead of more parameters.the signature '(name: string, iconURL?: string, url?: string): MessageEmbed' of 'linkEmbed.setAuthor' is deprecated.ts(6387) */
 			linkEmbed.setAuthor({
 				name: "'Classroon Monitor'",
 				url: 'https://discord.js.org/',
-				iconURL: 'https://i.imgur.com/yMCOBLH.png',
+				iconURL: 'https://user-images.githubusercontent.com/91791257/209436999-007b066a-01d9-490b-9bfd-3010e53d6954.jpg',
 			});
 
 			linkEmbed.setDescription('Quality Education. Free For All. Forever.');
@@ -53,7 +53,7 @@ const DSA = {
 			linkEmbed.setTimestamp();
 			linkEmbed.setFooter(
 				'Want help? Classroom monitor is just `/help` far',
-				'https://i.imgur.com/yMCOBLH.png'
+				'https://user-images.githubusercontent.com/91791257/209436999-007b066a-01d9-490b-9bfd-3010e53d6954.jpg'
 			);
 
 			await interaction.editReply({ embeds: [linkEmbed] });
