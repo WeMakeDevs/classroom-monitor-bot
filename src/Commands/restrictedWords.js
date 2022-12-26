@@ -9,7 +9,7 @@ const warnEmbed = new Discord.MessageEmbed()
 	.setURL('https://github.com/WeMakeDevs/classroom-monitor-bot')
 	.setAuthor(
 		'Classroom Monitor',
-		'https://i.imgur.com/yMCOBLH.png',
+		'https://user-images.githubusercontent.com/91791257/209436999-007b066a-01d9-490b-9bfd-3010e53d6954.jpg',
 		'https://discord.js.org'
 	)
 	.addFields({
@@ -19,7 +19,7 @@ const warnEmbed = new Discord.MessageEmbed()
 	.setTimestamp()
 	.setFooter(
 		'Want help? Classroom monitor is just `cm!help` far',
-		'https://i.imgur.com/yMCOBLH.png'
+		'https://user-images.githubusercontent.com/91791257/209436999-007b066a-01d9-490b-9bfd-3010e53d6954.jpg'
 	);
 
 const words = [

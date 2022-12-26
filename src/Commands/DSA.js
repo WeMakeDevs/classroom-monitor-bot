@@ -31,7 +31,7 @@ const DSA = {
 			linkEmbed.setAuthor({
 				name: "'Classroon Monitor'",
 				url: 'https://discord.js.org/',
-				iconURL: 'https://i.imgur.com/yMCOBLH.png',
+				iconURL: 'https://user-images.githubusercontent.com/91791257/209436999-007b066a-01d9-490b-9bfd-3010e53d6954.jpg',
 			});
 
 			linkEmbed.setDescription('Quality Education. Free For All. Forever.');
@@ -53,7 +53,7 @@ const DSA = {
 			linkEmbed.setTimestamp();
 			linkEmbed.setFooter(
 				'Want help? Classroom monitor is just `/help` far',
-				'https://i.imgur.com/yMCOBLH.png'
+				'https://user-images.githubusercontent.com/91791257/209436999-007b066a-01d9-490b-9bfd-3010e53d6954.jpg'
 			);
 
 			await interaction.editReply({ embeds: [linkEmbed] });

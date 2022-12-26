@@ -19,7 +19,7 @@ const Source = {
 			sourceEmbed.setAuthor({
 				name: "'Classroon Monitor'",
 				url: 'https://discord.js.org/',
-				iconURL: 'https://i.imgur.com/yMCOBLH.png',
+				iconURL: 'https://user-images.githubusercontent.com/91791257/209436999-007b066a-01d9-490b-9bfd-3010e53d6954.jpg',
 			});
 			sourceEmbed.setDescription(
 				'Open Source Discord bot made by and for ✨WeMakeDevs✨'
@@ -31,7 +31,7 @@ const Source = {
 			sourceEmbed.setTimestamp();
 			sourceEmbed.setFooter(
 				'Want help? Classroom monitor is just `cm!help` far',
-				'https://i.imgur.com/yMCOBLH.png'
+				'https://user-images.githubusercontent.com/91791257/209436999-007b066a-01d9-490b-9bfd-3010e53d6954.jpg'
 			);
 			await interaction.editReply({ embeds: [sourceEmbed] });
 		} catch (error) {
